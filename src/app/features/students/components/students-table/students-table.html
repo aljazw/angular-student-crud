@@ -1,0 +1,36 @@
+@if (!students.length && !loading) {
+    <p>There are not student records</p>
+}
+
+<p-table 
+    [value]="students"
+    [paginator]="true"
+    [rows]="20"
+    [totalRecords]="totalRecords"
+    [lazy]="true"
+    (onLazyLoad)="loadStudents($event)"
+>
+    <ng-template pTemplate="header">
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Birth Date</th>
+            <th>Subjects</th>
+        </tr>
+    </ng-template>
+
+    <ng-template pTemplate="body" let-student let-i="rowIndex">
+        <tr>
+            <td>{{ i + 1 }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.email }}</td>
+            <td>{{ student.birthDate }}</td>
+            <td>Subject Name</td>
+        </tr>
+    </ng-template>
+</p-table>
+
+
+
+
