@@ -1,597 +1,655 @@
 {
   "students": [
     {
-      "id": 1,
-      "name": "John Jackson",
-      "email": "john.jackson@hotmail.com",
-      "birthDate": "2004-04-26",
+      "id": 0,
+      "name": "Hannah Anderson",
+      "email": "hannah.anderson@hotmail.com",
+      "birthDate": "2000-11-21",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Music",
-          "score": 79
-        },
-        {
-          "name": "Math",
-          "score": null
-        },
-        {
-          "name": "Philosophy",
-          "score": 59
-        },
-        {
-          "name": "Biology",
-          "score": 87
-        },
-        {
           "name": "History",
-          "score": null
+          "score": 9
         },
         {
-          "name": "Computer Science",
-          "score": null
+          "name": "Geography",
+          "score": 7
         },
         {
           "name": "Art",
           "score": null
+        },
+        {
+          "name": "Philosophy",
+          "score": null
+        },
+        {
+          "name": "Music",
+          "score": null
+        },
+        {
+          "name": "PE",
+          "score": null
+        },
+        {
+          "name": "Economics",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Stephanie Lee",
+      "email": "stephanie.lee@yahoo.com",
+      "birthDate": "2002-05-28",
+      "course": "Arts",
+      "subjects": [
+        {
+          "name": "History",
+          "score": 5
+        },
+        {
+          "name": "Geography",
+          "score": 8
+        },
+        {
+          "name": "Art",
+          "score": null
+        },
+        {
+          "name": "Philosophy",
+          "score": null
+        },
+        {
+          "name": "Music",
+          "score": null
+        },
+        {
+          "name": "PE",
+          "score": null
+        },
+        {
+          "name": "Economics",
+          "score": 10
         }
       ]
     },
     {
       "id": 2,
-      "name": "Rachel Hill",
-      "email": "rachel.hill@school.edu",
-      "birthDate": "2001-07-21",
+      "name": "Lauren Torres",
+      "email": "lauren.torres@school.edu",
+      "birthDate": "2001-07-05",
+      "course": "Physical Education",
       "subjects": [
         {
+          "name": "PE",
+          "score": null
+        },
+        {
           "name": "Biology",
-          "score": 59
+          "score": null
+        },
+        {
+          "name": "Physics",
+          "score": 8
         },
         {
           "name": "Math",
-          "score": 63
-        },
-        {
-          "name": "Philosophy",
-          "score": 60
-        },
-        {
-          "name": "Computer Science",
           "score": null
         },
         {
           "name": "History",
+          "score": 7
+        },
+        {
+          "name": "Geography",
           "score": null
         },
         {
-          "name": "Economics",
-          "score": null
-        },
-        {
-          "name": "Music",
-          "score": 63
+          "name": "Philosophy",
+          "score": 5
         }
       ]
     },
     {
       "id": 3,
-      "name": "Chris Lewis",
-      "email": "chris.lewis@school.edu",
-      "birthDate": "2004-02-16",
+      "name": "Justin Hill",
+      "email": "justin.hill@example.com",
+      "birthDate": "2005-10-11",
+      "course": "Arts",
       "subjects": [
-        {
-          "name": "Computer Science",
-          "score": 68
-        },
-        {
-          "name": "Physics",
-          "score": null
-        },
-        {
-          "name": "Economics",
-          "score": null
-        },
-        {
-          "name": "Philosophy",
-          "score": 91
-        },
         {
           "name": "History",
           "score": null
         },
         {
-          "name": "Math",
-          "score": 66
+          "name": "Geography",
+          "score": null
         },
         {
           "name": "Art",
-          "score": 72
+          "score": 5
+        },
+        {
+          "name": "Philosophy",
+          "score": 7
+        },
+        {
+          "name": "Music",
+          "score": 5
+        },
+        {
+          "name": "PE",
+          "score": 6
+        },
+        {
+          "name": "Economics",
+          "score": null
         }
       ]
     },
     {
       "id": 4,
-      "name": "Alexander White",
-      "email": "alexander.white@example.com",
-      "birthDate": "2000-07-24",
+      "name": "Allison Harris",
+      "email": "allison.harris@yahoo.com",
+      "birthDate": "2004-12-18",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Computer Science",
-          "score": 72
+          "name": "Math",
+          "score": 7
         },
         {
-          "name": "Art",
-          "score": 50
+          "name": "History",
+          "score": null
+        },
+        {
+          "name": "Geography",
+          "score": 9
+        },
+        {
+          "name": "Economics",
+          "score": 8
+        },
+        {
+          "name": "Music",
+          "score": 7
         },
         {
           "name": "PE",
-          "score": 84
-        },
-        {
-          "name": "Biology",
-          "score": 56
-        },
-        {
-          "name": "Physics",
-          "score": 65
-        },
-        {
-          "name": "Philosophy",
           "score": null
         },
         {
-          "name": "Math",
-          "score": null
+          "name": "Computer Science",
+          "score": 6
         }
       ]
     },
     {
       "id": 5,
-      "name": "Nicole Williams",
-      "email": "nicole.williams@hotmail.com",
-      "birthDate": "2002-01-02",
+      "name": "Rachel Rivera",
+      "email": "rachel.rivera@hotmail.com",
+      "birthDate": "2002-08-03",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Computer Science",
+          "name": "Math",
           "score": null
         },
         {
-          "name": "Biology",
+          "name": "History",
+          "score": null
+        },
+        {
+          "name": "Geography",
           "score": null
         },
         {
           "name": "Economics",
-          "score": 62
-        },
-        {
-          "name": "Philosophy",
-          "score": 58
-        },
-        {
-          "name": "History",
-          "score": 52
+          "score": 5
         },
         {
           "name": "Music",
-          "score": 70
+          "score": 7
         },
         {
-          "name": "Physics",
-          "score": 94
+          "name": "PE",
+          "score": null
+        },
+        {
+          "name": "Computer Science",
+          "score": null
         }
       ]
     },
     {
       "id": 6,
-      "name": "Megan Martinez",
-      "email": "megan.martinez@hotmail.com",
-      "birthDate": "2005-06-07",
+      "name": "Victoria Flores",
+      "email": "victoria.flores@yahoo.com",
+      "birthDate": "2004-09-24",
+      "course": "Arts",
       "subjects": [
         {
+          "name": "History",
+          "score": null
+        },
+        {
           "name": "Geography",
-          "score": 68
+          "score": 10
+        },
+        {
+          "name": "Art",
+          "score": null
+        },
+        {
+          "name": "Philosophy",
+          "score": 9
+        },
+        {
+          "name": "Music",
+          "score": null
         },
         {
           "name": "PE",
-          "score": 62
-        },
-        {
-          "name": "Math",
-          "score": null
-        },
-        {
-          "name": "Physics",
-          "score": 91
-        },
-        {
-          "name": "Biology",
-          "score": null
-        },
-        {
-          "name": "Computer Science",
-          "score": null
+          "score": 10
         },
         {
           "name": "Economics",
-          "score": 50
+          "score": 6
         }
       ]
     },
     {
       "id": 7,
-      "name": "Jasmine Allen",
-      "email": "jasmine.allen@yahoo.com",
-      "birthDate": "2003-08-25",
+      "name": "John Robinson",
+      "email": "john.robinson@school.edu",
+      "birthDate": "2004-06-27",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Music",
-          "score": null
+          "name": "History",
+          "score": 5
         },
         {
-          "name": "Biology",
-          "score": null
+          "name": "Geography",
+          "score": 8
         },
         {
-          "name": "Physics",
+          "name": "Art",
           "score": null
         },
         {
           "name": "Philosophy",
-          "score": 74
+          "score": 7
         },
         {
-          "name": "Math",
-          "score": 64
+          "name": "Music",
+          "score": 5
         },
         {
           "name": "PE",
-          "score": 59
+          "score": null
         },
         {
-          "name": "Computer Science",
-          "score": null
+          "name": "Economics",
+          "score": 6
         }
       ]
     },
     {
       "id": 8,
-      "name": "James Clark",
-      "email": "james.clark@school.edu",
-      "birthDate": "2004-09-19",
+      "name": "John Ramirez",
+      "email": "john.ramirez@gmail.com",
+      "birthDate": "2001-04-12",
+      "course": "Science",
       "subjects": [
         {
           "name": "Math",
-          "score": 98
+          "score": 10
         },
         {
           "name": "Biology",
-          "score": 73
-        },
-        {
-          "name": "PE",
-          "score": 95
+          "score": 7
         },
         {
           "name": "Physics",
-          "score": 66
+          "score": 7
         },
         {
-          "name": "Computer Science",
-          "score": 99
-        },
-        {
-          "name": "History",
+          "name": "Chemistry",
           "score": null
         },
         {
-          "name": "Economics",
-          "score": 94
+          "name": "Geography",
+          "score": 6
+        },
+        {
+          "name": "Computer Science",
+          "score": null
+        },
+        {
+          "name": "Philosophy",
+          "score": 6
         }
       ]
     },
     {
       "id": 9,
-      "name": "Joshua Martinez",
-      "email": "joshua.martinez@school.edu",
-      "birthDate": "2001-04-11",
+      "name": "Daniel Ramirez",
+      "email": "daniel.ramirez@yahoo.com",
+      "birthDate": "2005-02-11",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Art",
+          "name": "Math",
           "score": null
         },
         {
           "name": "History",
-          "score": 85
-        },
-        {
-          "name": "Math",
-          "score": 97
-        },
-        {
-          "name": "Biology",
           "score": null
-        },
-        {
-          "name": "PE",
-          "score": 86
         },
         {
           "name": "Geography",
-          "score": 77
+          "score": 8
         },
         {
-          "name": "Physics",
+          "name": "Economics",
           "score": null
+        },
+        {
+          "name": "Music",
+          "score": 6
+        },
+        {
+          "name": "PE",
+          "score": 5
+        },
+        {
+          "name": "Computer Science",
+          "score": 5
         }
       ]
     },
     {
       "id": 10,
-      "name": "Daniel Taylor",
-      "email": "daniel.taylor@example.com",
-      "birthDate": "2000-05-23",
+      "name": "Andrew Gonzalez",
+      "email": "andrew.gonzalez@example.com",
+      "birthDate": "2001-11-15",
+      "course": "Science",
       "subjects": [
         {
-          "name": "PE",
-          "score": 82
+          "name": "Math",
+          "score": null
         },
         {
           "name": "Biology",
           "score": null
         },
         {
-          "name": "Economics",
+          "name": "Physics",
           "score": null
         },
         {
-          "name": "Art",
-          "score": 100
+          "name": "Chemistry",
+          "score": 5
         },
         {
-          "name": "History",
+          "name": "Geography",
           "score": null
         },
         {
           "name": "Computer Science",
-          "score": 95
+          "score": 10
         },
         {
-          "name": "Math",
-          "score": null
+          "name": "Philosophy",
+          "score": 7
         }
       ]
     },
     {
       "id": 11,
-      "name": "Alexander Williams",
-      "email": "alexander.williams@gmail.com",
-      "birthDate": "2004-10-25",
+      "name": "Andrew Anderson",
+      "email": "andrew.anderson@yahoo.com",
+      "birthDate": "2005-12-02",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Philosophy",
-          "score": 71
-        },
-        {
-          "name": "Geography",
-          "score": 94
-        },
-        {
-          "name": "Art",
-          "score": 59
-        },
-        {
-          "name": "Economics",
-          "score": 86
-        },
-        {
-          "name": "Music",
-          "score": 55
-        },
-        {
-          "name": "Biology",
-          "score": 70
+          "name": "Math",
+          "score": 7
         },
         {
           "name": "History",
-          "score": 92
+          "score": 5
+        },
+        {
+          "name": "Geography",
+          "score": 10
+        },
+        {
+          "name": "Economics",
+          "score": 6
+        },
+        {
+          "name": "Music",
+          "score": 10
+        },
+        {
+          "name": "PE",
+          "score": null
+        },
+        {
+          "name": "Computer Science",
+          "score": 6
         }
       ]
     },
     {
       "id": 12,
-      "name": "Tyler Young",
-      "email": "tyler.young@yahoo.com",
-      "birthDate": "2000-05-18",
+      "name": "Ashley Allen",
+      "email": "ashley.allen@yahoo.com",
+      "birthDate": "2004-10-12",
+      "course": "General Studies",
       "subjects": [
         {
           "name": "Math",
+          "score": 9
+        },
+        {
+          "name": "History",
+          "score": 5
+        },
+        {
+          "name": "Geography",
+          "score": 5
+        },
+        {
+          "name": "Economics",
           "score": null
         },
         {
-          "name": "Biology",
+          "name": "Music",
           "score": null
         },
         {
           "name": "PE",
-          "score": 58
-        },
-        {
-          "name": "Geography",
           "score": null
         },
         {
-          "name": "Art",
-          "score": 66
-        },
-        {
-          "name": "Philosophy",
-          "score": 65
-        },
-        {
-          "name": "Music",
-          "score": 95
+          "name": "Computer Science",
+          "score": null
         }
       ]
     },
     {
       "id": 13,
-      "name": "Jonathan Wilson",
-      "email": "jonathan.wilson@school.edu",
-      "birthDate": "2005-09-22",
+      "name": "Alexandra Taylor",
+      "email": "alexandra.taylor@school.edu",
+      "birthDate": "2004-10-12",
+      "course": "Science",
       "subjects": [
-        {
-          "name": "Philosophy",
-          "score": null
-        },
-        {
-          "name": "History",
-          "score": null
-        },
-        {
-          "name": "Geography",
-          "score": 57
-        },
         {
           "name": "Math",
           "score": null
         },
         {
-          "name": "Music",
-          "score": 67
-        },
-        {
-          "name": "Economics",
-          "score": 92
-        },
-        {
           "name": "Biology",
-          "score": 73
+          "score": 8
+        },
+        {
+          "name": "Physics",
+          "score": 8
+        },
+        {
+          "name": "Chemistry",
+          "score": null
+        },
+        {
+          "name": "Geography",
+          "score": 9
+        },
+        {
+          "name": "Computer Science",
+          "score": 6
+        },
+        {
+          "name": "Philosophy",
+          "score": 9
         }
       ]
     },
     {
       "id": 14,
-      "name": "Hannah Robinson",
-      "email": "hannah.robinson@hotmail.com",
-      "birthDate": "2002-08-04",
+      "name": "Samuel Baker",
+      "email": "samuel.baker@hotmail.com",
+      "birthDate": "2004-03-13",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Biology",
-          "score": 92
+          "name": "Math",
+          "score": null
+        },
+        {
+          "name": "History",
+          "score": 6
+        },
+        {
+          "name": "Geography",
+          "score": 8
         },
         {
           "name": "Economics",
-          "score": null
+          "score": 7
         },
         {
           "name": "Music",
           "score": null
         },
         {
-          "name": "Computer Science",
-          "score": 86
-        },
-        {
-          "name": "Math",
-          "score": 75
-        },
-        {
           "name": "PE",
-          "score": 55
+          "score": null
         },
         {
-          "name": "Physics",
-          "score": 57
+          "name": "Computer Science",
+          "score": null
         }
       ]
     },
     {
       "id": 15,
-      "name": "Aaron Ramirez",
-      "email": "aaron.ramirez@hotmail.com",
-      "birthDate": "2002-03-03",
+      "name": "Alexandra Torres",
+      "email": "alexandra.torres@hotmail.com",
+      "birthDate": "2004-01-13",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Art",
-          "score": 100
+          "name": "Math",
+          "score": 6
         },
         {
           "name": "History",
-          "score": null
+          "score": 5
         },
         {
-          "name": "Philosophy",
-          "score": null
+          "name": "Geography",
+          "score": 8
         },
         {
           "name": "Economics",
-          "score": 81
+          "score": 7
+        },
+        {
+          "name": "Music",
+          "score": 5
+        },
+        {
+          "name": "PE",
+          "score": null
         },
         {
           "name": "Computer Science",
-          "score": null
-        },
-        {
-          "name": "Physics",
-          "score": null
-        },
-        {
-          "name": "Math",
           "score": null
         }
       ]
     },
     {
       "id": 16,
-      "name": "Michael Adams",
-      "email": "michael.adams@gmail.com",
-      "birthDate": "2005-08-24",
+      "name": "Jessica Martinez",
+      "email": "jessica.martinez@gmail.com",
+      "birthDate": "2001-04-27",
+      "course": "Science",
       "subjects": [
         {
-          "name": "History",
-          "score": null
+          "name": "Math",
+          "score": 7
+        },
+        {
+          "name": "Biology",
+          "score": 10
+        },
+        {
+          "name": "Physics",
+          "score": 10
+        },
+        {
+          "name": "Chemistry",
+          "score": 8
         },
         {
           "name": "Geography",
           "score": null
         },
         {
-          "name": "Economics",
-          "score": 85
-        },
-        {
-          "name": "Biology",
-          "score": 67
-        },
-        {
           "name": "Computer Science",
-          "score": 95
-        },
-        {
-          "name": "Art",
-          "score": 76
-        },
-        {
-          "name": "Physics",
           "score": null
+        },
+        {
+          "name": "Philosophy",
+          "score": 10
         }
       ]
     },
     {
       "id": 17,
-      "name": "David Williams",
-      "email": "david.williams@hotmail.com",
-      "birthDate": "2003-11-23",
+      "name": "Chris Mitchell",
+      "email": "chris.mitchell@school.edu",
+      "birthDate": "2000-01-19",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Biology",
-          "score": 71
+          "name": "Math",
+          "score": 7
         },
         {
-          "name": "Computer Science",
+          "name": "Biology",
+          "score": 5
+        },
+        {
+          "name": "Physics",
           "score": null
         },
         {
-          "name": "Economics",
+          "name": "Chemistry",
           "score": null
         },
         {
@@ -599,115 +657,102 @@
           "score": null
         },
         {
-          "name": "Music",
-          "score": 64
+          "name": "Computer Science",
+          "score": 9
         },
         {
-          "name": "Physics",
-          "score": 88
-        },
-        {
-          "name": "History",
-          "score": null
+          "name": "Philosophy",
+          "score": 6
         }
       ]
     },
     {
       "id": 18,
-      "name": "Jasmine Gonzalez",
-      "email": "jasmine.gonzalez@gmail.com",
-      "birthDate": "2001-04-24",
+      "name": "Jasmine King",
+      "email": "jasmine.king@yahoo.com",
+      "birthDate": "2000-05-03",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Math",
-          "score": 98
-        },
-        {
-          "name": "Music",
-          "score": null
-        },
-        {
-          "name": "Philosophy",
-          "score": 97
-        },
-        {
-          "name": "PE",
-          "score": null
-        },
-        {
           "name": "History",
-          "score": 58
+          "score": null
+        },
+        {
+          "name": "Geography",
+          "score": 8
         },
         {
           "name": "Art",
-          "score": 99
+          "score": 6
         },
         {
-          "name": "Biology",
-          "score": 52
+          "name": "Philosophy",
+          "score": null
+        },
+        {
+          "name": "Music",
+          "score": 8
+        },
+        {
+          "name": "PE",
+          "score": 6
+        },
+        {
+          "name": "Economics",
+          "score": null
         }
       ]
     },
     {
       "id": 19,
-      "name": "Zachary Hill",
-      "email": "zachary.hill@gmail.com",
-      "birthDate": "2002-05-07",
+      "name": "Jasmine Rivera",
+      "email": "jasmine.rivera@hotmail.com",
+      "birthDate": "2001-03-25",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Math",
-          "score": 56
+          "name": "PE",
+          "score": null
         },
         {
-          "name": "Music",
+          "name": "Biology",
+          "score": 7
+        },
+        {
+          "name": "Physics",
+          "score": null
+        },
+        {
+          "name": "Math",
+          "score": 8
+        },
+        {
+          "name": "History",
+          "score": 10
+        },
+        {
+          "name": "Geography",
           "score": null
         },
         {
           "name": "Philosophy",
-          "score": 98
-        },
-        {
-          "name": "Economics",
-          "score": 81
-        },
-        {
-          "name": "Art",
-          "score": null
-        },
-        {
-          "name": "PE",
-          "score": 98
-        },
-        {
-          "name": "Geography",
-          "score": 99
+          "score": 10
         }
       ]
     },
     {
       "id": 20,
-      "name": "Allison Hill",
-      "email": "allison.hill@yahoo.com",
-      "birthDate": "2001-07-13",
+      "name": "James White",
+      "email": "james.white@hotmail.com",
+      "birthDate": "2001-05-05",
+      "course": "Science",
       "subjects": [
-        {
-          "name": "Geography",
-          "score": 51
-        },
-        {
-          "name": "Biology",
-          "score": 69
-        },
         {
           "name": "Math",
           "score": null
         },
         {
-          "name": "Music",
-          "score": 68
-        },
-        {
-          "name": "PE",
+          "name": "Biology",
           "score": null
         },
         {
@@ -715,63 +760,73 @@
           "score": null
         },
         {
+          "name": "Chemistry",
+          "score": null
+        },
+        {
+          "name": "Geography",
+          "score": 5
+        },
+        {
           "name": "Computer Science",
-          "score": 51
+          "score": null
+        },
+        {
+          "name": "Philosophy",
+          "score": 10
         }
       ]
     },
     {
       "id": 21,
-      "name": "Megan Wright",
-      "email": "megan.wright@school.edu",
-      "birthDate": "2002-10-15",
+      "name": "Kayla Gonzalez",
+      "email": "kayla.gonzalez@school.edu",
+      "birthDate": "2003-11-11",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Geography",
-          "score": 61
+          "name": "Math",
+          "score": 8
         },
         {
-          "name": "Computer Science",
-          "score": 67
+          "name": "Biology",
+          "score": 9
         },
         {
           "name": "Physics",
+          "score": 6
+        },
+        {
+          "name": "Chemistry",
+          "score": 7
+        },
+        {
+          "name": "Geography",
+          "score": 8
+        },
+        {
+          "name": "Computer Science",
           "score": null
         },
         {
-          "name": "Art",
-          "score": 53
-        },
-        {
-          "name": "PE",
-          "score": 71
-        },
-        {
           "name": "Philosophy",
-          "score": 71
-        },
-        {
-          "name": "History",
-          "score": 75
+          "score": 6
         }
       ]
     },
     {
       "id": 22,
-      "name": "Rachel Martinez",
-      "email": "rachel.martinez@example.com",
-      "birthDate": "2001-06-18",
+      "name": "Michael Adams",
+      "email": "michael.adams@gmail.com",
+      "birthDate": "2001-02-22",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Computer Science",
-          "score": 51
+          "name": "Math",
+          "score": 8
         },
         {
-          "name": "Geography",
-          "score": 83
-        },
-        {
-          "name": "PE",
+          "name": "Biology",
           "score": null
         },
         {
@@ -779,107 +834,221 @@
           "score": null
         },
         {
-          "name": "Music",
-          "score": 94
+          "name": "Chemistry",
+          "score": 9
         },
         {
-          "name": "Biology",
+          "name": "Geography",
           "score": null
         },
         {
-          "name": "Art",
-          "score": 97
+          "name": "Computer Science",
+          "score": 8
+        },
+        {
+          "name": "Philosophy",
+          "score": 5
         }
       ]
     },
     {
       "id": 23,
-      "name": "Samantha Walker",
-      "email": "samantha.walker@school.edu",
-      "birthDate": "2002-08-11",
+      "name": "Hannah Young",
+      "email": "hannah.young@gmail.com",
+      "birthDate": "2000-07-18",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Computer Science",
-          "score": null
-        },
-        {
-          "name": "Physics",
-          "score": 92
+          "name": "PE",
+          "score": 8
         },
         {
           "name": "Biology",
-          "score": null
+          "score": 5
         },
         {
-          "name": "Geography",
+          "name": "Physics",
+          "score": 5
+        },
+        {
+          "name": "Math",
           "score": null
         },
         {
           "name": "History",
-          "score": 98
+          "score": null
         },
         {
-          "name": "PE",
-          "score": 88
+          "name": "Geography",
+          "score": 7
         },
         {
-          "name": "Music",
-          "score": 56
+          "name": "Philosophy",
+          "score": 10
         }
       ]
     },
     {
       "id": 24,
-      "name": "Ethan Flores",
-      "email": "ethan.flores@yahoo.com",
-      "birthDate": "2005-12-27",
+      "name": "Eric Clark",
+      "email": "eric.clark@example.com",
+      "birthDate": "2001-09-02",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Geography",
-          "score": 76
-        },
-        {
-          "name": "Philosophy",
-          "score": 63
-        },
-        {
-          "name": "Biology",
+          "name": "Math",
           "score": null
         },
         {
           "name": "History",
-          "score": 86
+          "score": 7
         },
         {
-          "name": "Physics",
-          "score": 83
+          "name": "Geography",
+          "score": null
         },
         {
           "name": "Economics",
-          "score": 91
+          "score": null
         },
         {
           "name": "Music",
-          "score": null
+          "score": 5
+        },
+        {
+          "name": "PE",
+          "score": 10
+        },
+        {
+          "name": "Computer Science",
+          "score": 5
         }
       ]
     },
     {
       "id": 25,
-      "name": "Ryan Johnson",
-      "email": "ryan.johnson@school.edu",
-      "birthDate": "2001-03-15",
+      "name": "Chris Allen",
+      "email": "chris.allen@gmail.com",
+      "birthDate": "2004-05-09",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Computer Science",
-          "score": 100
+          "name": "Math",
+          "score": null
         },
         {
-          "name": "History",
-          "score": 56
+          "name": "Biology",
+          "score": null
         },
+        {
+          "name": "Physics",
+          "score": 7
+        },
+        {
+          "name": "Chemistry",
+          "score": 10
+        },
+        {
+          "name": "Geography",
+          "score": 5
+        },
+        {
+          "name": "Computer Science",
+          "score": 6
+        },
+        {
+          "name": "Philosophy",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Samantha Lopez",
+      "email": "samantha.lopez@yahoo.com",
+      "birthDate": "2004-04-17",
+      "course": "Science",
+      "subjects": [
         {
           "name": "Math",
+          "score": 9
+        },
+        {
+          "name": "Biology",
+          "score": null
+        },
+        {
+          "name": "Physics",
+          "score": 5
+        },
+        {
+          "name": "Chemistry",
+          "score": null
+        },
+        {
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Computer Science",
+          "score": 7
+        },
+        {
+          "name": "Philosophy",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Chris Jones",
+      "email": "chris.jones@school.edu",
+      "birthDate": "2001-12-12",
+      "course": "Arts",
+      "subjects": [
+        {
+          "name": "History",
+          "score": 10
+        },
+        {
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Art",
+          "score": 10
+        },
+        {
+          "name": "Philosophy",
+          "score": 10
+        },
+        {
+          "name": "Music",
+          "score": 7
+        },
+        {
+          "name": "PE",
+          "score": 6
+        },
+        {
+          "name": "Economics",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Courtney Garcia",
+      "email": "courtney.garcia@yahoo.com",
+      "birthDate": "2005-01-22",
+      "course": "Physical Education",
+      "subjects": [
+        {
+          "name": "PE",
+          "score": 10
+        },
+        {
+          "name": "Biology",
           "score": null
         },
         {
@@ -887,684 +1056,563 @@
           "score": null
         },
         {
-          "name": "PE",
-          "score": null
-        },
-        {
-          "name": "Geography",
-          "score": null
-        },
-        {
-          "name": "Philosophy",
-          "score": null
-        }
-      ]
-    },
-    {
-      "id": 26,
-      "name": "Andrew Taylor",
-      "email": "andrew.taylor@gmail.com",
-      "birthDate": "2003-09-14",
-      "subjects": [
-        {
           "name": "Math",
           "score": null
-        },
-        {
-          "name": "Biology",
-          "score": null
-        },
-        {
-          "name": "PE",
-          "score": null
-        },
-        {
-          "name": "Music",
-          "score": 81
         },
         {
           "name": "History",
-          "score": 88
-        },
-        {
-          "name": "Art",
-          "score": 97
-        },
-        {
-          "name": "Economics",
           "score": null
-        }
-      ]
-    },
-    {
-      "id": 27,
-      "name": "Brooke Gonzalez",
-      "email": "brooke.gonzalez@gmail.com",
-      "birthDate": "2003-02-18",
-      "subjects": [
-        {
-          "name": "Music",
-          "score": 80
-        },
-        {
-          "name": "Art",
-          "score": 90
-        },
-        {
-          "name": "PE",
-          "score": 78
-        },
-        {
-          "name": "Computer Science",
-          "score": null
-        },
-        {
-          "name": "Biology",
-          "score": 94
-        },
-        {
-          "name": "Philosophy",
-          "score": null
-        },
-        {
-          "name": "Economics",
-          "score": 79
-        }
-      ]
-    },
-    {
-      "id": 28,
-      "name": "Jonathan Thompson",
-      "email": "jonathan.thompson@school.edu",
-      "birthDate": "2000-03-04",
-      "subjects": [
-        {
-          "name": "Computer Science",
-          "score": null
-        },
-        {
-          "name": "PE",
-          "score": 65
         },
         {
           "name": "Geography",
-          "score": 79
-        },
-        {
-          "name": "Music",
-          "score": 59
-        },
-        {
-          "name": "Philosophy",
-          "score": 64
-        },
-        {
-          "name": "Math",
           "score": null
         },
         {
-          "name": "Art",
+          "name": "Philosophy",
           "score": null
         }
       ]
     },
     {
       "id": 29,
-      "name": "Samantha Mitchell",
-      "email": "samantha.mitchell@hotmail.com",
-      "birthDate": "2003-06-26",
+      "name": "Joshua Allen",
+      "email": "joshua.allen@example.com",
+      "birthDate": "2005-07-13",
+      "course": "Physical Education",
       "subjects": [
         {
+          "name": "PE",
+          "score": 9
+        },
+        {
           "name": "Biology",
-          "score": 76
-        },
-        {
-          "name": "Computer Science",
-          "score": 72
-        },
-        {
-          "name": "Art",
-          "score": 74
+          "score": 8
         },
         {
           "name": "Physics",
-          "score": null
+          "score": 6
         },
         {
           "name": "Math",
-          "score": 88
+          "score": 9
         },
         {
-          "name": "Economics",
-          "score": 94
+          "name": "History",
+          "score": 8
         },
         {
-          "name": "PE",
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Philosophy",
           "score": null
         }
       ]
     },
     {
       "id": 30,
-      "name": "Daniel Jackson",
-      "email": "daniel.jackson@yahoo.com",
-      "birthDate": "2004-01-14",
+      "name": "Benjamin Ramirez",
+      "email": "benjamin.ramirez@hotmail.com",
+      "birthDate": "2000-12-18",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Art",
-          "score": 92
-        },
-        {
-          "name": "Computer Science",
-          "score": null
-        },
-        {
-          "name": "Physics",
-          "score": null
-        },
-        {
-          "name": "Biology",
-          "score": 58
-        },
-        {
-          "name": "Philosophy",
-          "score": 53
-        },
-        {
           "name": "Math",
-          "score": 87
+          "score": null
+        },
+        {
+          "name": "History",
+          "score": null
+        },
+        {
+          "name": "Geography",
+          "score": 6
+        },
+        {
+          "name": "Economics",
+          "score": 8
         },
         {
           "name": "Music",
-          "score": 86
-        }
-      ]
-    },
-    {
-      "id": 31,
-      "name": "Rachel King",
-      "email": "rachel.king@school.edu",
-      "birthDate": "2004-04-26",
-      "subjects": [
-        {
-          "name": "Computer Science",
-          "score": 76
+          "score": 10
         },
         {
           "name": "PE",
           "score": null
         },
         {
+          "name": "Computer Science",
+          "score": null
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Hannah Brown",
+      "email": "hannah.brown@school.edu",
+      "birthDate": "2002-07-12",
+      "course": "Arts",
+      "subjects": [
+        {
+          "name": "History",
+          "score": null
+        },
+        {
           "name": "Geography",
-          "score": 82
+          "score": 9
         },
         {
-          "name": "Physics",
-          "score": null
-        },
-        {
-          "name": "Economics",
-          "score": 79
-        },
-        {
-          "name": "Math",
-          "score": null
+          "name": "Art",
+          "score": 9
         },
         {
           "name": "Philosophy",
+          "score": 6
+        },
+        {
+          "name": "Music",
+          "score": 5
+        },
+        {
+          "name": "PE",
+          "score": 5
+        },
+        {
+          "name": "Economics",
           "score": null
         }
       ]
     },
     {
       "id": 32,
-      "name": "Madison Moore",
-      "email": "madison.moore@example.com",
-      "birthDate": "2002-05-16",
+      "name": "Katherine Sanchez",
+      "email": "katherine.sanchez@yahoo.com",
+      "birthDate": "2005-08-09",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Biology",
-          "score": 62
+          "name": "PE",
+          "score": null
         },
         {
-          "name": "Philosophy",
-          "score": 83
+          "name": "Biology",
+          "score": null
+        },
+        {
+          "name": "Physics",
+          "score": 10
         },
         {
           "name": "Math",
-          "score": 92
-        },
-        {
-          "name": "Computer Science",
           "score": null
         },
         {
-          "name": "Art",
+          "name": "History",
           "score": null
-        },
-        {
-          "name": "PE",
-          "score": 98
         },
         {
           "name": "Geography",
-          "score": null
+          "score": 6
+        },
+        {
+          "name": "Philosophy",
+          "score": 6
         }
       ]
     },
     {
       "id": 33,
-      "name": "Matthew Jones",
-      "email": "matthew.jones@example.com",
-      "birthDate": "2004-07-24",
+      "name": "Zachary Rivera",
+      "email": "zachary.rivera@gmail.com",
+      "birthDate": "2005-01-20",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Music",
-          "score": 68
-        },
-        {
-          "name": "Biology",
-          "score": 53
-        },
-        {
-          "name": "Philosophy",
-          "score": 100
-        },
-        {
           "name": "Math",
-          "score": 95
+          "score": 7
         },
         {
-          "name": "Physics",
-          "score": 88
+          "name": "History",
+          "score": null
         },
         {
-          "name": "Computer Science",
-          "score": 94
+          "name": "Geography",
+          "score": null
         },
         {
           "name": "Economics",
+          "score": 8
+        },
+        {
+          "name": "Music",
+          "score": 9
+        },
+        {
+          "name": "PE",
           "score": null
+        },
+        {
+          "name": "Computer Science",
+          "score": 5
         }
       ]
     },
     {
       "id": 34,
-      "name": "Ryan Thomas",
-      "email": "ryan.thomas@gmail.com",
-      "birthDate": "2005-04-10",
+      "name": "John Sanchez",
+      "email": "john.sanchez@example.com",
+      "birthDate": "2003-08-11",
+      "course": "Science",
       "subjects": [
         {
           "name": "Math",
-          "score": null
+          "score": 10
+        },
+        {
+          "name": "Biology",
+          "score": 8
         },
         {
           "name": "Physics",
           "score": null
         },
         {
-          "name": "Economics",
-          "score": 89
-        },
-        {
-          "name": "Music",
-          "score": 50
-        },
-        {
-          "name": "History",
-          "score": 75
-        },
-        {
-          "name": "Computer Science",
+          "name": "Chemistry",
           "score": null
         },
         {
-          "name": "PE",
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Computer Science",
+          "score": 6
+        },
+        {
+          "name": "Philosophy",
           "score": null
         }
       ]
     },
     {
       "id": 35,
-      "name": "Emily Jones",
-      "email": "emily.jones@gmail.com",
-      "birthDate": "2005-08-10",
+      "name": "Kayla Clark",
+      "email": "kayla.clark@example.com",
+      "birthDate": "2000-05-24",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Economics",
-          "score": 71
+          "name": "PE",
+          "score": null
         },
         {
           "name": "Biology",
+          "score": 7
+        },
+        {
+          "name": "Physics",
           "score": null
         },
         {
           "name": "Math",
-          "score": 96
-        },
-        {
-          "name": "Art",
           "score": null
         },
         {
-          "name": "PE",
-          "score": 68
+          "name": "History",
+          "score": null
         },
         {
-          "name": "Computer Science",
-          "score": 90
+          "name": "Geography",
+          "score": 6
         },
         {
-          "name": "Physics",
-          "score": 91
+          "name": "Philosophy",
+          "score": null
         }
       ]
     },
     {
       "id": 36,
-      "name": "Andrew Nelson",
-      "email": "andrew.nelson@hotmail.com",
-      "birthDate": "2004-03-10",
+      "name": "Hannah Baker",
+      "email": "hannah.baker@school.edu",
+      "birthDate": "2002-05-22",
+      "course": "General Studies",
       "subjects": [
+        {
+          "name": "Math",
+          "score": 7
+        },
         {
           "name": "History",
           "score": null
         },
         {
-          "name": "PE",
-          "score": 93
+          "name": "Geography",
+          "score": 9
         },
         {
-          "name": "Philosophy",
-          "score": null
-        },
-        {
-          "name": "Art",
-          "score": null
+          "name": "Economics",
+          "score": 9
         },
         {
           "name": "Music",
-          "score": null
+          "score": 10
+        },
+        {
+          "name": "PE",
+          "score": 6
         },
         {
           "name": "Computer Science",
-          "score": null
-        },
-        {
-          "name": "Math",
-          "score": 99
+          "score": 8
         }
       ]
     },
     {
       "id": 37,
-      "name": "John Harris",
-      "email": "john.harris@school.edu",
-      "birthDate": "2001-05-09",
+      "name": "Ashley Adams",
+      "email": "ashley.adams@gmail.com",
+      "birthDate": "2005-11-13",
+      "course": "Science",
       "subjects": [
         {
-          "name": "History",
+          "name": "Math",
           "score": null
         },
         {
-          "name": "PE",
-          "score": 62
+          "name": "Biology",
+          "score": null
+        },
+        {
+          "name": "Physics",
+          "score": 5
+        },
+        {
+          "name": "Chemistry",
+          "score": 5
         },
         {
           "name": "Geography",
           "score": null
         },
         {
-          "name": "Physics",
-          "score": null
-        },
-        {
-          "name": "Economics",
-          "score": null
+          "name": "Computer Science",
+          "score": 7
         },
         {
           "name": "Philosophy",
-          "score": 90
-        },
-        {
-          "name": "Math",
-          "score": null
+          "score": 8
         }
       ]
     },
     {
       "id": 38,
-      "name": "Eric Johnson",
-      "email": "eric.johnson@gmail.com",
-      "birthDate": "2001-12-19",
+      "name": "Morgan Scott",
+      "email": "morgan.scott@gmail.com",
+      "birthDate": "2004-02-22",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Art",
-          "score": 61
-        },
-        {
-          "name": "Economics",
-          "score": null
-        },
-        {
           "name": "PE",
-          "score": null
-        },
-        {
-          "name": "Physics",
-          "score": 51
+          "score": 7
         },
         {
           "name": "Biology",
-          "score": 62
+          "score": 9
+        },
+        {
+          "name": "Physics",
+          "score": 7
+        },
+        {
+          "name": "Math",
+          "score": null
         },
         {
           "name": "History",
-          "score": 69
+          "score": 7
         },
         {
           "name": "Geography",
-          "score": 50
+          "score": 7
+        },
+        {
+          "name": "Philosophy",
+          "score": 5
         }
       ]
     },
     {
       "id": 39,
-      "name": "Alexander Ramirez",
-      "email": "alexander.ramirez@example.com",
-      "birthDate": "2001-02-19",
+      "name": "Jasmine King",
+      "email": "jasmine.king@hotmail.com",
+      "birthDate": "2001-07-10",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Geography",
+          "name": "Math",
           "score": null
         },
         {
-          "name": "Philosophy",
+          "name": "History",
+          "score": null
+        },
+        {
+          "name": "Geography",
+          "score": 10
+        },
+        {
+          "name": "Economics",
           "score": null
         },
         {
           "name": "Music",
-          "score": 78
-        },
-        {
-          "name": "Physics",
-          "score": 90
-        },
-        {
-          "name": "Computer Science",
-          "score": 59
+          "score": 9
         },
         {
           "name": "PE",
-          "score": 57
+          "score": 6
         },
         {
-          "name": "Economics",
+          "name": "Computer Science",
           "score": null
         }
       ]
     },
     {
       "id": 40,
-      "name": "Hannah Campbell",
-      "email": "hannah.campbell@school.edu",
-      "birthDate": "2005-07-15",
+      "name": "Samantha Martin",
+      "email": "samantha.martin@gmail.com",
+      "birthDate": "2005-02-06",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "PE",
+          "name": "History",
+          "score": 6
+        },
+        {
+          "name": "Geography",
           "score": null
+        },
+        {
+          "name": "Art",
+          "score": 5
+        },
+        {
+          "name": "Philosophy",
+          "score": 9
         },
         {
           "name": "Music",
           "score": null
         },
         {
-          "name": "History",
-          "score": 67
+          "name": "PE",
+          "score": 6
         },
         {
-          "name": "Philosophy",
-          "score": 63
-        },
-        {
-          "name": "Computer Science",
-          "score": 84
-        },
-        {
-          "name": "Art",
-          "score": null
-        },
-        {
-          "name": "Math",
+          "name": "Economics",
           "score": null
         }
       ]
     },
     {
       "id": 41,
-      "name": "Lauren Rivera",
-      "email": "lauren.rivera@school.edu",
-      "birthDate": "2002-01-10",
+      "name": "Lauren White",
+      "email": "lauren.white@school.edu",
+      "birthDate": "2003-02-19",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Economics",
-          "score": 55
-        },
-        {
-          "name": "PE",
+          "name": "Math",
           "score": null
         },
         {
-          "name": "Philosophy",
-          "score": 93
-        },
-        {
-          "name": "Music",
-          "score": null
+          "name": "Biology",
+          "score": 10
         },
         {
           "name": "Physics",
+          "score": 5
+        },
+        {
+          "name": "Chemistry",
           "score": null
         },
         {
-          "name": "History",
-          "score": 99
+          "name": "Geography",
+          "score": 7
         },
         {
           "name": "Computer Science",
-          "score": null
+          "score": 7
+        },
+        {
+          "name": "Philosophy",
+          "score": 5
         }
       ]
     },
     {
       "id": 42,
-      "name": "Amber Brown",
-      "email": "amber.brown@gmail.com",
-      "birthDate": "2005-02-27",
+      "name": "Kayla Hernandez",
+      "email": "kayla.hernandez@gmail.com",
+      "birthDate": "2000-01-03",
+      "course": "Physical Education",
       "subjects": [
-        {
-          "name": "Computer Science",
-          "score": 78
-        },
-        {
-          "name": "Math",
-          "score": 83
-        },
-        {
-          "name": "Physics",
-          "score": null
-        },
-        {
-          "name": "Biology",
-          "score": 78
-        },
-        {
-          "name": "Economics",
-          "score": null
-        },
         {
           "name": "PE",
           "score": null
         },
         {
-          "name": "Music",
+          "name": "Biology",
+          "score": 8
+        },
+        {
+          "name": "Physics",
+          "score": 10
+        },
+        {
+          "name": "Math",
+          "score": null
+        },
+        {
+          "name": "History",
+          "score": 8
+        },
+        {
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Philosophy",
           "score": null
         }
       ]
     },
     {
       "id": 43,
-      "name": "Benjamin Walker",
-      "email": "benjamin.walker@example.com",
-      "birthDate": "2004-04-14",
+      "name": "Joshua Davis",
+      "email": "joshua.davis@gmail.com",
+      "birthDate": "2000-08-24",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Music",
-          "score": 69
-        },
-        {
-          "name": "Art",
-          "score": 53
+          "name": "PE",
+          "score": null
         },
         {
           "name": "Biology",
-          "score": 62
-        },
-        {
-          "name": "History",
-          "score": 67
+          "score": 10
         },
         {
           "name": "Physics",
-          "score": null
-        },
-        {
-          "name": "PE",
-          "score": 74
+          "score": 7
         },
         {
           "name": "Math",
-          "score": 57
-        }
-      ]
-    },
-    {
-      "id": 44,
-      "name": "Daniel Flores",
-      "email": "daniel.flores@yahoo.com",
-      "birthDate": "2001-02-06",
-      "subjects": [
-        {
-          "name": "Economics",
-          "score": 75
-        },
-        {
-          "name": "Math",
-          "score": null
-        },
-        {
-          "name": "Philosophy",
-          "score": 57
+          "score": 8
         },
         {
           "name": "History",
@@ -1572,638 +1620,689 @@
         },
         {
           "name": "Geography",
-          "score": null
+          "score": 7
         },
         {
-          "name": "Music",
+          "name": "Philosophy",
           "score": null
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Michael Thomas",
+      "email": "michael.thomas@example.com",
+      "birthDate": "2005-12-23",
+      "course": "Science",
+      "subjects": [
+        {
+          "name": "Math",
+          "score": 6
         },
         {
           "name": "Biology",
+          "score": null
+        },
+        {
+          "name": "Physics",
+          "score": 5
+        },
+        {
+          "name": "Chemistry",
+          "score": 10
+        },
+        {
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Computer Science",
+          "score": 8
+        },
+        {
+          "name": "Philosophy",
           "score": null
         }
       ]
     },
     {
       "id": 45,
-      "name": "Kayla Thompson",
-      "email": "kayla.thompson@hotmail.com",
-      "birthDate": "2000-10-05",
+      "name": "Allison Lopez",
+      "email": "allison.lopez@gmail.com",
+      "birthDate": "2001-04-20",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Philosophy",
-          "score": 56
+          "name": "PE",
+          "score": 6
         },
         {
-          "name": "History",
-          "score": 58
+          "name": "Biology",
+          "score": null
+        },
+        {
+          "name": "Physics",
+          "score": null
         },
         {
           "name": "Math",
           "score": null
         },
         {
-          "name": "Art",
-          "score": 53
+          "name": "History",
+          "score": 8
         },
         {
           "name": "Geography",
           "score": null
         },
         {
-          "name": "Computer Science",
-          "score": null
-        },
-        {
-          "name": "Physics",
-          "score": 76
+          "name": "Philosophy",
+          "score": 9
         }
       ]
     },
     {
       "id": 46,
-      "name": "Jessica Anderson",
-      "email": "jessica.anderson@gmail.com",
-      "birthDate": "2002-01-11",
+      "name": "Megan Lopez",
+      "email": "megan.lopez@example.com",
+      "birthDate": "2004-11-18",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Philosophy",
-          "score": 59
+          "name": "Math",
+          "score": 8
+        },
+        {
+          "name": "History",
+          "score": null
+        },
+        {
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Economics",
+          "score": 9
+        },
+        {
+          "name": "Music",
+          "score": 6
         },
         {
           "name": "PE",
           "score": null
         },
         {
-          "name": "Art",
-          "score": 52
-        },
-        {
-          "name": "Music",
-          "score": 67
-        },
-        {
-          "name": "Physics",
-          "score": 100
-        },
-        {
-          "name": "Math",
-          "score": null
-        },
-        {
-          "name": "History",
-          "score": null
+          "name": "Computer Science",
+          "score": 10
         }
       ]
     },
     {
       "id": 47,
-      "name": "John Nelson",
-      "email": "john.nelson@school.edu",
-      "birthDate": "2002-09-21",
+      "name": "Andrew Jones",
+      "email": "andrew.jones@gmail.com",
+      "birthDate": "2001-10-16",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Philosophy",
-          "score": 78
-        },
-        {
-          "name": "Math",
-          "score": 50
-        },
-        {
-          "name": "PE",
-          "score": 100
-        },
-        {
           "name": "History",
-          "score": 92
-        },
-        {
-          "name": "Computer Science",
-          "score": 79
-        },
-        {
-          "name": "Art",
           "score": null
         },
         {
           "name": "Geography",
           "score": null
+        },
+        {
+          "name": "Art",
+          "score": 7
+        },
+        {
+          "name": "Philosophy",
+          "score": null
+        },
+        {
+          "name": "Music",
+          "score": null
+        },
+        {
+          "name": "PE",
+          "score": 6
+        },
+        {
+          "name": "Economics",
+          "score": 7
         }
       ]
     },
     {
       "id": 48,
-      "name": "Tyler Scott",
-      "email": "tyler.scott@example.com",
-      "birthDate": "2002-08-19",
+      "name": "Amber Flores",
+      "email": "amber.flores@school.edu",
+      "birthDate": "2000-07-24",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Physics",
-          "score": null
-        },
-        {
-          "name": "Computer Science",
-          "score": 51
-        },
-        {
           "name": "History",
-          "score": 53
+          "score": 10
         },
         {
           "name": "Geography",
-          "score": 56
-        },
-        {
-          "name": "PE",
-          "score": null
-        },
-        {
-          "name": "Math",
           "score": null
         },
         {
           "name": "Art",
+          "score": 5
+        },
+        {
+          "name": "Philosophy",
+          "score": 8
+        },
+        {
+          "name": "Music",
+          "score": 10
+        },
+        {
+          "name": "PE",
+          "score": 10
+        },
+        {
+          "name": "Economics",
           "score": null
         }
       ]
     },
     {
       "id": 49,
-      "name": "Alexandra Walker",
-      "email": "alexandra.walker@example.com",
-      "birthDate": "2005-12-05",
+      "name": "Morgan Moore",
+      "email": "morgan.moore@example.com",
+      "birthDate": "2001-06-28",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Music",
-          "score": 57
-        },
-        {
-          "name": "Art",
+          "name": "Math",
           "score": null
         },
         {
-          "name": "Physics",
-          "score": 86
+          "name": "History",
+          "score": 7
+        },
+        {
+          "name": "Geography",
+          "score": null
         },
         {
           "name": "Economics",
-          "score": 59
+          "score": 6
+        },
+        {
+          "name": "Music",
+          "score": 10
+        },
+        {
+          "name": "PE",
+          "score": 5
         },
         {
           "name": "Computer Science",
-          "score": 69
-        },
-        {
-          "name": "Biology",
-          "score": 96
-        },
-        {
-          "name": "Math",
-          "score": 95
+          "score": null
         }
       ]
     },
     {
       "id": 50,
-      "name": "Alexandra Adams",
-      "email": "alexandra.adams@yahoo.com",
-      "birthDate": "2005-10-11",
+      "name": "Joseph Jones",
+      "email": "joseph.jones@example.com",
+      "birthDate": "2005-12-10",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Music",
+          "name": "PE",
+          "score": null
+        },
+        {
+          "name": "Biology",
           "score": null
         },
         {
           "name": "Physics",
-          "score": 83
-        },
-        {
-          "name": "Economics",
-          "score": 71
-        },
-        {
-          "name": "Geography",
           "score": null
         },
         {
+          "name": "Math",
+          "score": 6
+        },
+        {
+          "name": "History",
+          "score": null
+        },
+        {
+          "name": "Geography",
+          "score": 8
+        },
+        {
           "name": "Philosophy",
-          "score": 52
-        },
-        {
-          "name": "PE",
-          "score": 99
-        },
-        {
-          "name": "Computer Science",
-          "score": 58
+          "score": 8
         }
       ]
     },
     {
       "id": 51,
-      "name": "John Davis",
-      "email": "john.davis@yahoo.com",
-      "birthDate": "2003-06-09",
+      "name": "John Mitchell",
+      "email": "john.mitchell@hotmail.com",
+      "birthDate": "2000-05-05",
+      "course": "Science",
       "subjects": [
         {
-          "name": "History",
-          "score": null
-        },
-        {
-          "name": "Physics",
-          "score": 99
-        },
-        {
-          "name": "Philosophy",
-          "score": null
-        },
-        {
-          "name": "Geography",
-          "score": 84
+          "name": "Math",
+          "score": 6
         },
         {
           "name": "Biology",
-          "score": 90
+          "score": 10
         },
         {
-          "name": "Art",
-          "score": 71
+          "name": "Physics",
+          "score": 9
         },
         {
-          "name": "Math",
-          "score": 71
+          "name": "Chemistry",
+          "score": 8
+        },
+        {
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Computer Science",
+          "score": 6
+        },
+        {
+          "name": "Philosophy",
+          "score": 10
         }
       ]
     },
     {
       "id": 52,
-      "name": "Tyler Scott",
-      "email": "tyler.scott@example.com",
-      "birthDate": "2005-11-05",
+      "name": "Benjamin Lopez",
+      "email": "benjamin.lopez@yahoo.com",
+      "birthDate": "2003-03-03",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Music",
-          "score": null
+          "name": "Math",
+          "score": 5
         },
         {
-          "name": "Computer Science",
-          "score": 69
-        },
-        {
-          "name": "History",
-          "score": 96
-        },
-        {
-          "name": "Economics",
-          "score": 56
+          "name": "Biology",
+          "score": 8
         },
         {
           "name": "Physics",
           "score": null
         },
         {
-          "name": "Philosophy",
+          "name": "Chemistry",
           "score": null
         },
         {
-          "name": "Math",
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Computer Science",
+          "score": null
+        },
+        {
+          "name": "Philosophy",
           "score": null
         }
       ]
     },
     {
       "id": 53,
-      "name": "Tyler Wright",
-      "email": "tyler.wright@yahoo.com",
-      "birthDate": "2005-08-13",
+      "name": "Victoria Williams",
+      "email": "victoria.williams@hotmail.com",
+      "birthDate": "2005-09-04",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Philosophy",
+          "name": "Math",
           "score": null
         },
         {
           "name": "Biology",
-          "score": null
+          "score": 7
         },
         {
-          "name": "History",
-          "score": null
+          "name": "Physics",
+          "score": 9
+        },
+        {
+          "name": "Chemistry",
+          "score": 5
+        },
+        {
+          "name": "Geography",
+          "score": 5
         },
         {
           "name": "Computer Science",
           "score": null
         },
         {
-          "name": "Math",
-          "score": 50
-        },
-        {
-          "name": "Physics",
-          "score": 93
-        },
-        {
-          "name": "PE",
-          "score": 57
+          "name": "Philosophy",
+          "score": 6
         }
       ]
     },
     {
       "id": 54,
-      "name": "Zachary Lewis",
-      "email": "zachary.lewis@gmail.com",
-      "birthDate": "2005-05-08",
+      "name": "Chris Taylor",
+      "email": "chris.taylor@yahoo.com",
+      "birthDate": "2000-05-25",
+      "course": "Physical Education",
       "subjects": [
         {
           "name": "PE",
-          "score": 81
+          "score": null
         },
         {
           "name": "Biology",
           "score": null
         },
         {
-          "name": "Art",
-          "score": 99
-        },
-        {
-          "name": "Economics",
-          "score": null
-        },
-        {
-          "name": "Geography",
-          "score": null
-        },
-        {
-          "name": "Computer Science",
-          "score": null
+          "name": "Physics",
+          "score": 9
         },
         {
           "name": "Math",
           "score": null
+        },
+        {
+          "name": "History",
+          "score": 10
+        },
+        {
+          "name": "Geography",
+          "score": 7
+        },
+        {
+          "name": "Philosophy",
+          "score": 7
         }
       ]
     },
     {
       "id": 55,
-      "name": "Jonathan Young",
-      "email": "jonathan.young@hotmail.com",
-      "birthDate": "2005-08-21",
+      "name": "Michael Nguyen",
+      "email": "michael.nguyen@gmail.com",
+      "birthDate": "2005-12-01",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Biology",
-          "score": 74
+          "name": "Math",
+          "score": 10
         },
         {
-          "name": "Music",
-          "score": 89
+          "name": "Biology",
+          "score": 5
         },
         {
           "name": "Physics",
-          "score": null
+          "score": 7
         },
         {
-          "name": "Math",
-          "score": 88
+          "name": "Chemistry",
+          "score": 5
         },
         {
           "name": "Geography",
           "score": null
         },
         {
-          "name": "Philosophy",
-          "score": 69
+          "name": "Computer Science",
+          "score": null
         },
         {
-          "name": "Computer Science",
-          "score": 53
+          "name": "Philosophy",
+          "score": null
         }
       ]
     },
     {
       "id": 56,
-      "name": "Lauren Thomas",
-      "email": "lauren.thomas@school.edu",
-      "birthDate": "2004-04-13",
+      "name": "Hannah Campbell",
+      "email": "hannah.campbell@hotmail.com",
+      "birthDate": "2000-07-09",
+      "course": "General Studies",
       "subjects": [
         {
           "name": "Math",
           "score": null
         },
         {
-          "name": "Computer Science",
-          "score": null
-        },
-        {
-          "name": "Music",
-          "score": 89
-        },
-        {
-          "name": "Philosophy",
-          "score": null
-        },
-        {
-          "name": "Biology",
+          "name": "History",
           "score": null
         },
         {
           "name": "Geography",
-          "score": 79
+          "score": 10
         },
         {
-          "name": "Physics",
-          "score": 69
+          "name": "Economics",
+          "score": 9
+        },
+        {
+          "name": "Music",
+          "score": 8
+        },
+        {
+          "name": "PE",
+          "score": 7
+        },
+        {
+          "name": "Computer Science",
+          "score": 7
         }
       ]
     },
     {
       "id": 57,
-      "name": "Ethan Mitchell",
-      "email": "ethan.mitchell@gmail.com",
-      "birthDate": "2001-12-24",
+      "name": "Madison Hernandez",
+      "email": "madison.hernandez@yahoo.com",
+      "birthDate": "2001-02-18",
+      "course": "Science",
       "subjects": [
+        {
+          "name": "Math",
+          "score": 10
+        },
         {
           "name": "Biology",
           "score": null
         },
         {
           "name": "Physics",
-          "score": null
+          "score": 9
+        },
+        {
+          "name": "Chemistry",
+          "score": 9
         },
         {
           "name": "Geography",
-          "score": 51
-        },
-        {
-          "name": "Philosophy",
-          "score": 65
-        },
-        {
-          "name": "Music",
           "score": null
         },
         {
           "name": "Computer Science",
-          "score": 75
+          "score": 7
         },
         {
-          "name": "Economics",
-          "score": null
+          "name": "Philosophy",
+          "score": 9
         }
       ]
     },
     {
       "id": 58,
-      "name": "Justin Lopez",
-      "email": "justin.lopez@example.com",
-      "birthDate": "2002-03-16",
+      "name": "Madison Adams",
+      "email": "madison.adams@example.com",
+      "birthDate": "2001-04-02",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "History",
+          "name": "PE",
+          "score": 8
+        },
+        {
+          "name": "Biology",
           "score": null
         },
         {
-          "name": "Philosophy",
-          "score": 78
+          "name": "Physics",
+          "score": null
+        },
+        {
+          "name": "Math",
+          "score": null
+        },
+        {
+          "name": "History",
+          "score": null
         },
         {
           "name": "Geography",
           "score": null
         },
         {
-          "name": "PE",
-          "score": 88
-        },
-        {
-          "name": "Music",
-          "score": 57
-        },
-        {
-          "name": "Physics",
-          "score": 68
-        },
-        {
-          "name": "Economics",
-          "score": 71
+          "name": "Philosophy",
+          "score": 9
         }
       ]
     },
     {
       "id": 59,
-      "name": "Brandon Nelson",
-      "email": "brandon.nelson@example.com",
-      "birthDate": "2003-09-03",
+      "name": "Natalie Nguyen",
+      "email": "natalie.nguyen@gmail.com",
+      "birthDate": "2004-05-04",
+      "course": "General Studies",
       "subjects": [
-        {
-          "name": "Computer Science",
-          "score": 78
-        },
         {
           "name": "Math",
           "score": null
         },
         {
-          "name": "PE",
-          "score": 86
+          "name": "History",
+          "score": 10
         },
         {
           "name": "Geography",
-          "score": 79
+          "score": null
         },
         {
-          "name": "Philosophy",
-          "score": 59
-        },
-        {
-          "name": "Biology",
-          "score": 65
+          "name": "Economics",
+          "score": null
         },
         {
           "name": "Music",
-          "score": 68
+          "score": 6
+        },
+        {
+          "name": "PE",
+          "score": 5
+        },
+        {
+          "name": "Computer Science",
+          "score": 6
         }
       ]
     },
     {
       "id": 60,
-      "name": "Alexandra Wilson",
-      "email": "alexandra.wilson@hotmail.com",
-      "birthDate": "2000-06-07",
+      "name": "Chris White",
+      "email": "chris.white@example.com",
+      "birthDate": "2003-02-25",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Geography",
-          "score": null
-        },
-        {
-          "name": "Art",
-          "score": 95
-        },
-        {
-          "name": "Economics",
-          "score": 74
-        },
-        {
           "name": "PE",
-          "score": 100
+          "score": null
         },
         {
           "name": "Biology",
           "score": null
         },
         {
-          "name": "Music",
-          "score": 76
+          "name": "Physics",
+          "score": 5
+        },
+        {
+          "name": "Math",
+          "score": null
+        },
+        {
+          "name": "History",
+          "score": null
+        },
+        {
+          "name": "Geography",
+          "score": 8
         },
         {
           "name": "Philosophy",
-          "score": 76
+          "score": 6
         }
       ]
     },
     {
       "id": 61,
-      "name": "Andrew Clark",
-      "email": "andrew.clark@example.com",
-      "birthDate": "2001-06-12",
+      "name": "Kayla Lee",
+      "email": "kayla.lee@gmail.com",
+      "birthDate": "2003-05-26",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Art",
-          "score": 82
+          "name": "Math",
+          "score": null
+        },
+        {
+          "name": "Biology",
+          "score": null
+        },
+        {
+          "name": "Physics",
+          "score": 10
+        },
+        {
+          "name": "Chemistry",
+          "score": 7
         },
         {
           "name": "Geography",
-          "score": null
+          "score": 8
         },
         {
-          "name": "Music",
-          "score": 75
-        },
-        {
-          "name": "Economics",
-          "score": 97
-        },
-        {
-          "name": "PE",
-          "score": null
-        },
-        {
-          "name": "History",
-          "score": null
+          "name": "Computer Science",
+          "score": 10
         },
         {
           "name": "Philosophy",
-          "score": 57
+          "score": null
         }
       ]
     },
     {
       "id": 62,
-      "name": "Kayla Hall",
-      "email": "kayla.hall@example.com",
-      "birthDate": "2003-06-03",
+      "name": "Jonathan Young",
+      "email": "jonathan.young@yahoo.com",
+      "birthDate": "2002-08-23",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Physics",
+          "name": "Math",
           "score": null
         },
         {
@@ -2212,234 +2311,240 @@
         },
         {
           "name": "Geography",
-          "score": null
+          "score": 6
         },
         {
-          "name": "Art",
-          "score": null
-        },
-        {
-          "name": "Philosophy",
-          "score": 100
+          "name": "Economics",
+          "score": 5
         },
         {
           "name": "Music",
-          "score": null
+          "score": 9
         },
         {
-          "name": "Biology",
-          "score": 77
+          "name": "PE",
+          "score": 6
+        },
+        {
+          "name": "Computer Science",
+          "score": 9
         }
       ]
     },
     {
       "id": 63,
-      "name": "Olivia Allen",
-      "email": "olivia.allen@hotmail.com",
-      "birthDate": "2003-12-02",
+      "name": "Alexandra Lewis",
+      "email": "alexandra.lewis@hotmail.com",
+      "birthDate": "2002-11-28",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Geography",
-          "score": 67
-        },
-        {
-          "name": "History",
-          "score": null
-        },
-        {
-          "name": "Music",
-          "score": 53
+          "name": "PE",
+          "score": 9
         },
         {
           "name": "Biology",
-          "score": null
-        },
-        {
-          "name": "Art",
-          "score": null
-        },
-        {
-          "name": "Computer Science",
-          "score": 55
+          "score": 5
         },
         {
           "name": "Physics",
-          "score": 87
+          "score": null
+        },
+        {
+          "name": "Math",
+          "score": 7
+        },
+        {
+          "name": "History",
+          "score": 6
+        },
+        {
+          "name": "Geography",
+          "score": 8
+        },
+        {
+          "name": "Philosophy",
+          "score": 9
         }
       ]
     },
     {
       "id": 64,
-      "name": "Michael Young",
-      "email": "michael.young@yahoo.com",
-      "birthDate": "2000-04-08",
+      "name": "Jessica Sullivan",
+      "email": "jessica.sullivan@hotmail.com",
+      "birthDate": "2003-01-04",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Physics",
-          "score": 90
-        },
-        {
-          "name": "Philosophy",
-          "score": 97
-        },
-        {
-          "name": "Art",
-          "score": 72
-        },
-        {
-          "name": "PE",
-          "score": 100
-        },
-        {
-          "name": "Economics",
-          "score": 51
-        },
-        {
           "name": "Math",
-          "score": 91
+          "score": 8
+        },
+        {
+          "name": "Biology",
+          "score": 6
+        },
+        {
+          "name": "Physics",
+          "score": null
+        },
+        {
+          "name": "Chemistry",
+          "score": 10
         },
         {
           "name": "Geography",
           "score": null
+        },
+        {
+          "name": "Computer Science",
+          "score": 10
+        },
+        {
+          "name": "Philosophy",
+          "score": 5
         }
       ]
     },
     {
       "id": 65,
-      "name": "Andrew Hall",
-      "email": "andrew.hall@hotmail.com",
-      "birthDate": "2002-06-20",
+      "name": "Jonathan Nelson",
+      "email": "jonathan.nelson@yahoo.com",
+      "birthDate": "2004-01-16",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Art",
-          "score": 82
-        },
-        {
           "name": "PE",
-          "score": null
+          "score": 9
         },
         {
           "name": "Biology",
           "score": null
         },
         {
-          "name": "Computer Science",
+          "name": "Physics",
           "score": null
         },
         {
-          "name": "Music",
+          "name": "Math",
+          "score": 5
+        },
+        {
+          "name": "History",
           "score": null
         },
         {
           "name": "Geography",
-          "score": null
+          "score": 6
         },
         {
-          "name": "History",
-          "score": 83
+          "name": "Philosophy",
+          "score": 7
         }
       ]
     },
     {
       "id": 66,
-      "name": "Katherine Davis",
-      "email": "katherine.davis@yahoo.com",
-      "birthDate": "2001-06-14",
+      "name": "Ashley Sullivan",
+      "email": "ashley.sullivan@gmail.com",
+      "birthDate": "2005-06-16",
+      "course": "Arts",
       "subjects": [
         {
+          "name": "History",
+          "score": null
+        },
+        {
+          "name": "Geography",
+          "score": 5
+        },
+        {
           "name": "Art",
+          "score": 7
+        },
+        {
+          "name": "Philosophy",
+          "score": null
+        },
+        {
+          "name": "Music",
           "score": null
         },
         {
           "name": "PE",
-          "score": 52
-        },
-        {
-          "name": "Economics",
           "score": null
         },
         {
-          "name": "Biology",
-          "score": 73
-        },
-        {
-          "name": "Geography",
-          "score": 66
-        },
-        {
-          "name": "Computer Science",
-          "score": 98
-        },
-        {
-          "name": "Music",
+          "name": "Economics",
           "score": null
         }
       ]
     },
     {
       "id": 67,
-      "name": "Jessica Davis",
-      "email": "jessica.davis@school.edu",
-      "birthDate": "2002-10-28",
+      "name": "James Miller",
+      "email": "james.miller@school.edu",
+      "birthDate": "2002-11-09",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Geography",
-          "score": 71
-        },
-        {
-          "name": "Philosophy",
-          "score": 95
+          "name": "PE",
+          "score": null
         },
         {
           "name": "Biology",
-          "score": 57
+          "score": 8
         },
         {
           "name": "Physics",
+          "score": 9
+        },
+        {
+          "name": "Math",
+          "score": 6
+        },
+        {
+          "name": "History",
           "score": null
         },
         {
-          "name": "Computer Science",
-          "score": 64
-        },
-        {
-          "name": "Art",
+          "name": "Geography",
           "score": null
         },
         {
-          "name": "PE",
-          "score": 58
+          "name": "Philosophy",
+          "score": 7
         }
       ]
     },
     {
       "id": 68,
-      "name": "Tyler Smith",
-      "email": "tyler.smith@example.com",
-      "birthDate": "2004-02-08",
+      "name": "Rachel Harris",
+      "email": "rachel.harris@school.edu",
+      "birthDate": "2005-03-07",
+      "course": "Arts",
       "subjects": [
         {
+          "name": "History",
+          "score": null
+        },
+        {
           "name": "Geography",
-          "score": null
-        },
-        {
-          "name": "Physics",
-          "score": 61
-        },
-        {
-          "name": "PE",
-          "score": null
-        },
-        {
-          "name": "Math",
-          "score": null
+          "score": 9
         },
         {
           "name": "Art",
-          "score": 66
+          "score": null
         },
         {
-          "name": "Computer Science",
+          "name": "Philosophy",
+          "score": 10
+        },
+        {
+          "name": "Music",
+          "score": null
+        },
+        {
+          "name": "PE",
           "score": null
         },
         {
@@ -2450,28 +2555,17 @@
     },
     {
       "id": 69,
-      "name": "Christian Smith",
-      "email": "christian.smith@hotmail.com",
-      "birthDate": "2003-03-26",
+      "name": "Ashley Allen",
+      "email": "ashley.allen@school.edu",
+      "birthDate": "2002-03-21",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Physics",
-          "score": 78
-        },
-        {
-          "name": "Music",
-          "score": 59
-        },
-        {
-          "name": "Economics",
-          "score": 70
-        },
-        {
-          "name": "Math",
+          "name": "History",
           "score": null
         },
         {
-          "name": "Computer Science",
+          "name": "Geography",
           "score": null
         },
         {
@@ -2479,132 +2573,156 @@
           "score": null
         },
         {
-          "name": "Biology",
+          "name": "Philosophy",
+          "score": 7
+        },
+        {
+          "name": "Music",
+          "score": null
+        },
+        {
+          "name": "PE",
+          "score": null
+        },
+        {
+          "name": "Economics",
           "score": null
         }
       ]
     },
     {
       "id": 70,
-      "name": "Christian Brown",
-      "email": "christian.brown@gmail.com",
-      "birthDate": "2003-03-07",
+      "name": "Emily Adams",
+      "email": "emily.adams@example.com",
+      "birthDate": "2002-08-12",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Art",
-          "score": null
+          "name": "Math",
+          "score": 9
         },
         {
-          "name": "Economics",
-          "score": 54
-        },
-        {
-          "name": "Music",
-          "score": null
-        },
-        {
-          "name": "Philosophy",
-          "score": null
+          "name": "Biology",
+          "score": 8
         },
         {
           "name": "Physics",
-          "score": 100
+          "score": null
+        },
+        {
+          "name": "Chemistry",
+          "score": null
         },
         {
           "name": "Geography",
-          "score": 98
+          "score": 10
         },
         {
-          "name": "Math",
-          "score": 68
+          "name": "Computer Science",
+          "score": 5
+        },
+        {
+          "name": "Philosophy",
+          "score": 9
         }
       ]
     },
     {
       "id": 71,
-      "name": "Michael Allen",
-      "email": "michael.allen@yahoo.com",
-      "birthDate": "2002-12-02",
+      "name": "Andrew Nguyen",
+      "email": "andrew.nguyen@school.edu",
+      "birthDate": "2000-11-14",
+      "course": "Arts",
       "subjects": [
         {
+          "name": "History",
+          "score": 8
+        },
+        {
+          "name": "Geography",
+          "score": 6
+        },
+        {
           "name": "Art",
-          "score": 66
-        },
-        {
-          "name": "Economics",
-          "score": 62
-        },
-        {
-          "name": "PE",
           "score": null
         },
         {
           "name": "Philosophy",
-          "score": 56
+          "score": 8
         },
         {
           "name": "Music",
-          "score": 71
+          "score": 8
         },
         {
-          "name": "Math",
-          "score": 68
+          "name": "PE",
+          "score": 9
         },
         {
-          "name": "Physics",
+          "name": "Economics",
           "score": null
         }
       ]
     },
     {
       "id": 72,
-      "name": "James Nelson",
-      "email": "james.nelson@hotmail.com",
-      "birthDate": "2001-03-15",
+      "name": "Allison Baker",
+      "email": "allison.baker@school.edu",
+      "birthDate": "2000-06-09",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Art",
-          "score": 71
-        },
-        {
-          "name": "Economics",
-          "score": 92
-        },
-        {
-          "name": "Physics",
-          "score": 85
-        },
-        {
-          "name": "Biology",
-          "score": 82
+          "name": "Math",
+          "score": null
         },
         {
           "name": "History",
-          "score": 50
-        },
-        {
-          "name": "PE",
-          "score": 67
+          "score": null
         },
         {
           "name": "Geography",
-          "score": 59
+          "score": 7
+        },
+        {
+          "name": "Economics",
+          "score": 7
+        },
+        {
+          "name": "Music",
+          "score": null
+        },
+        {
+          "name": "PE",
+          "score": 7
+        },
+        {
+          "name": "Computer Science",
+          "score": 6
         }
       ]
     },
     {
       "id": 73,
-      "name": "Chris Martinez",
-      "email": "chris.martinez@hotmail.com",
-      "birthDate": "2003-05-07",
+      "name": "Amber Hall",
+      "email": "amber.hall@hotmail.com",
+      "birthDate": "2004-05-04",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Math",
+          "name": "History",
+          "score": null
+        },
+        {
+          "name": "Geography",
           "score": null
         },
         {
           "name": "Art",
-          "score": null
+          "score": 6
+        },
+        {
+          "name": "Philosophy",
+          "score": 8
         },
         {
           "name": "Music",
@@ -2612,195 +2730,192 @@
         },
         {
           "name": "PE",
-          "score": 82
-        },
-        {
-          "name": "Computer Science",
           "score": null
-        },
-        {
-          "name": "Geography",
-          "score": 84
         },
         {
           "name": "Economics",
-          "score": null
+          "score": 8
         }
       ]
     },
     {
       "id": 74,
-      "name": "Eric Smith",
-      "email": "eric.smith@hotmail.com",
-      "birthDate": "2000-03-20",
+      "name": "David Perez",
+      "email": "david.perez@gmail.com",
+      "birthDate": "2001-06-18",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Geography",
-          "score": 70
-        },
-        {
-          "name": "PE",
-          "score": null
-        },
-        {
           "name": "Math",
-          "score": 56
-        },
-        {
-          "name": "Philosophy",
-          "score": 55
-        },
-        {
-          "name": "Physics",
-          "score": 74
+          "score": 10
         },
         {
           "name": "History",
-          "score": 89
+          "score": 9
         },
         {
-          "name": "Art",
-          "score": 80
+          "name": "Geography",
+          "score": 6
+        },
+        {
+          "name": "Economics",
+          "score": 8
+        },
+        {
+          "name": "Music",
+          "score": null
+        },
+        {
+          "name": "PE",
+          "score": 5
+        },
+        {
+          "name": "Computer Science",
+          "score": 8
         }
       ]
     },
     {
       "id": 75,
-      "name": "Alexandra Garcia",
-      "email": "alexandra.garcia@gmail.com",
-      "birthDate": "2004-04-19",
+      "name": "Justin Martinez",
+      "email": "justin.martinez@gmail.com",
+      "birthDate": "2001-02-14",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Music",
-          "score": null
+          "name": "Math",
+          "score": 7
         },
         {
           "name": "History",
-          "score": 83
-        },
-        {
-          "name": "Geography",
-          "score": 65
-        },
-        {
-          "name": "PE",
-          "score": 56
-        },
-        {
-          "name": "Philosophy",
-          "score": 56
-        },
-        {
-          "name": "Math",
           "score": null
         },
         {
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Economics",
+          "score": null
+        },
+        {
+          "name": "Music",
+          "score": 9
+        },
+        {
+          "name": "PE",
+          "score": 10
+        },
+        {
           "name": "Computer Science",
-          "score": 93
+          "score": 6
         }
       ]
     },
     {
       "id": 76,
-      "name": "Ethan Martinez",
-      "email": "ethan.martinez@example.com",
-      "birthDate": "2003-06-14",
+      "name": "Katherine Allen",
+      "email": "katherine.allen@gmail.com",
+      "birthDate": "2005-06-25",
+      "course": "Arts",
       "subjects": [
-        {
-          "name": "Music",
-          "score": 90
-        },
-        {
-          "name": "PE",
-          "score": null
-        },
-        {
-          "name": "Biology",
-          "score": 75
-        },
-        {
-          "name": "Math",
-          "score": null
-        },
         {
           "name": "History",
-          "score": null
-        },
-        {
-          "name": "Computer Science",
-          "score": 68
-        },
-        {
-          "name": "Economics",
-          "score": null
-        }
-      ]
-    },
-    {
-      "id": 77,
-      "name": "Samantha Harris",
-      "email": "samantha.harris@hotmail.com",
-      "birthDate": "2005-11-04",
-      "subjects": [
-        {
-          "name": "Economics",
-          "score": 60
-        },
-        {
-          "name": "PE",
-          "score": null
-        },
-        {
-          "name": "Music",
-          "score": null
+          "score": 9
         },
         {
           "name": "Geography",
-          "score": 57
-        },
-        {
-          "name": "Math",
-          "score": 52
-        },
-        {
-          "name": "Biology",
-          "score": null
-        },
-        {
-          "name": "Physics",
-          "score": 64
-        }
-      ]
-    },
-    {
-      "id": 78,
-      "name": "Christian Miller",
-      "email": "christian.miller@example.com",
-      "birthDate": "2000-10-09",
-      "subjects": [
-        {
-          "name": "History",
-          "score": null
+          "score": 5
         },
         {
           "name": "Art",
-          "score": 59
-        },
-        {
-          "name": "Biology",
-          "score": 75
-        },
-        {
-          "name": "Music",
-          "score": 100
+          "score": null
         },
         {
           "name": "Philosophy",
           "score": null
         },
         {
+          "name": "Music",
+          "score": 8
+        },
+        {
+          "name": "PE",
+          "score": null
+        },
+        {
+          "name": "Economics",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Taylor Wright",
+      "email": "taylor.wright@school.edu",
+      "birthDate": "2001-12-22",
+      "course": "Science",
+      "subjects": [
+        {
+          "name": "Math",
+          "score": null
+        },
+        {
+          "name": "Biology",
+          "score": 6
+        },
+        {
+          "name": "Physics",
+          "score": 5
+        },
+        {
+          "name": "Chemistry",
+          "score": 10
+        },
+        {
           "name": "Geography",
           "score": null
+        },
+        {
+          "name": "Computer Science",
+          "score": null
+        },
+        {
+          "name": "Philosophy",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Amber Sullivan",
+      "email": "amber.sullivan@example.com",
+      "birthDate": "2002-07-10",
+      "course": "Arts",
+      "subjects": [
+        {
+          "name": "History",
+          "score": 6
+        },
+        {
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Art",
+          "score": 9
+        },
+        {
+          "name": "Philosophy",
+          "score": null
+        },
+        {
+          "name": "Music",
+          "score": 9
+        },
+        {
+          "name": "PE",
+          "score": 8
         },
         {
           "name": "Economics",
@@ -2810,24 +2925,21 @@
     },
     {
       "id": 79,
-      "name": "Morgan Lee",
-      "email": "morgan.lee@example.com",
-      "birthDate": "2002-10-11",
+      "name": "Stephanie Martinez",
+      "email": "stephanie.martinez@gmail.com",
+      "birthDate": "2004-09-11",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Geography",
-          "score": 67
-        },
-        {
-          "name": "Physics",
-          "score": 85
+          "name": "Math",
+          "score": 5
         },
         {
           "name": "History",
-          "score": 80
+          "score": null
         },
         {
-          "name": "Art",
+          "name": "Geography",
           "score": null
         },
         {
@@ -2835,131 +2947,139 @@
           "score": null
         },
         {
-          "name": "PE",
-          "score": 68
+          "name": "Music",
+          "score": null
         },
         {
-          "name": "Philosophy",
-          "score": 54
+          "name": "PE",
+          "score": 9
+        },
+        {
+          "name": "Computer Science",
+          "score": 7
         }
       ]
     },
     {
       "id": 80,
-      "name": "Jessica Thomas",
-      "email": "jessica.thomas@school.edu",
-      "birthDate": "2003-06-03",
+      "name": "Rachel Davis",
+      "email": "rachel.davis@example.com",
+      "birthDate": "2004-10-27",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Computer Science",
-          "score": 87
-        },
-        {
-          "name": "Music",
-          "score": null
-        },
-        {
           "name": "Math",
-          "score": 79
+          "score": 9
+        },
+        {
+          "name": "History",
+          "score": 6
         },
         {
           "name": "Geography",
-          "score": 100
+          "score": 10
         },
         {
-          "name": "Art",
-          "score": null
+          "name": "Economics",
+          "score": 7
+        },
+        {
+          "name": "Music",
+          "score": 5
         },
         {
           "name": "PE",
-          "score": 93
+          "score": null
         },
         {
-          "name": "Physics",
-          "score": null
+          "name": "Computer Science",
+          "score": 9
         }
       ]
     },
     {
       "id": 81,
-      "name": "Madison Hill",
-      "email": "madison.hill@yahoo.com",
-      "birthDate": "2004-05-15",
+      "name": "James Nelson",
+      "email": "james.nelson@hotmail.com",
+      "birthDate": "2005-01-02",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Economics",
-          "score": 64
+          "name": "History",
+          "score": 6
         },
         {
-          "name": "Biology",
-          "score": 57
-        },
-        {
-          "name": "PE",
+          "name": "Geography",
           "score": null
         },
         {
-          "name": "History",
-          "score": 72
-        },
-        {
-          "name": "Music",
-          "score": 62
+          "name": "Art",
+          "score": 8
         },
         {
           "name": "Philosophy",
           "score": null
         },
         {
-          "name": "Geography",
-          "score": 84
+          "name": "Music",
+          "score": 6
+        },
+        {
+          "name": "PE",
+          "score": 8
+        },
+        {
+          "name": "Economics",
+          "score": null
         }
       ]
     },
     {
       "id": 82,
-      "name": "Brooke Anderson",
-      "email": "brooke.anderson@yahoo.com",
-      "birthDate": "2001-07-14",
+      "name": "Nicole Wright",
+      "email": "nicole.wright@gmail.com",
+      "birthDate": "2001-02-28",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Computer Science",
-          "score": 74
+          "name": "Math",
+          "score": 8
         },
         {
-          "name": "History",
-          "score": 51
+          "name": "Biology",
+          "score": 8
+        },
+        {
+          "name": "Physics",
+          "score": null
+        },
+        {
+          "name": "Chemistry",
+          "score": 5
         },
         {
           "name": "Geography",
-          "score": 61
+          "score": 9
+        },
+        {
+          "name": "Computer Science",
+          "score": 10
         },
         {
           "name": "Philosophy",
-          "score": 96
-        },
-        {
-          "name": "Math",
-          "score": null
-        },
-        {
-          "name": "PE",
-          "score": null
-        },
-        {
-          "name": "Art",
-          "score": 91
+          "score": 6
         }
       ]
     },
     {
       "id": 83,
-      "name": "Madison Sullivan",
-      "email": "madison.sullivan@school.edu",
-      "birthDate": "2000-02-14",
+      "name": "David Nguyen",
+      "email": "david.nguyen@yahoo.com",
+      "birthDate": "2001-01-07",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Art",
+          "name": "Math",
           "score": null
         },
         {
@@ -2967,119 +3087,114 @@
           "score": null
         },
         {
-          "name": "Math",
-          "score": 74
+          "name": "Physics",
+          "score": 9
         },
         {
-          "name": "Computer Science",
-          "score": null
-        },
-        {
-          "name": "Economics",
-          "score": null
-        },
-        {
-          "name": "History",
-          "score": 86
+          "name": "Chemistry",
+          "score": 6
         },
         {
           "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Computer Science",
+          "score": 6
+        },
+        {
+          "name": "Philosophy",
           "score": null
         }
       ]
     },
     {
       "id": 84,
-      "name": "David Hill",
-      "email": "david.hill@example.com",
-      "birthDate": "2001-03-02",
+      "name": "Christian Mitchell",
+      "email": "christian.mitchell@example.com",
+      "birthDate": "2001-02-19",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Geography",
-          "score": 50
-        },
-        {
-          "name": "Math",
-          "score": null
-        },
-        {
-          "name": "History",
-          "score": null
-        },
-        {
-          "name": "Music",
-          "score": 52
+          "name": "PE",
+          "score": 5
         },
         {
           "name": "Biology",
+          "score": 5
+        },
+        {
+          "name": "Physics",
           "score": null
         },
         {
-          "name": "PE",
+          "name": "Math",
+          "score": 7
+        },
+        {
+          "name": "History",
+          "score": 10
+        },
+        {
+          "name": "Geography",
           "score": null
         },
         {
           "name": "Philosophy",
-          "score": 93
+          "score": 9
         }
       ]
     },
     {
       "id": 85,
-      "name": "Amber Garcia",
-      "email": "amber.garcia@school.edu",
-      "birthDate": "2001-03-14",
+      "name": "Taylor Nguyen",
+      "email": "taylor.nguyen@example.com",
+      "birthDate": "2003-05-01",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Biology",
-          "score": 66
-        },
-        {
-          "name": "Music",
-          "score": 100
+          "name": "Math",
+          "score": 7
         },
         {
           "name": "History",
           "score": null
         },
         {
-          "name": "Economics",
-          "score": 54
+          "name": "Geography",
+          "score": 8
         },
         {
-          "name": "Physics",
-          "score": 72
+          "name": "Economics",
+          "score": null
+        },
+        {
+          "name": "Music",
+          "score": 6
         },
         {
           "name": "PE",
-          "score": 86
+          "score": 9
         },
         {
-          "name": "Math",
+          "name": "Computer Science",
           "score": null
         }
       ]
     },
     {
       "id": 86,
-      "name": "Jasmine Smith",
-      "email": "jasmine.smith@yahoo.com",
-      "birthDate": "2001-07-15",
+      "name": "Eric Harris",
+      "email": "eric.harris@yahoo.com",
+      "birthDate": "2002-01-27",
+      "course": "Science",
       "subjects": [
         {
+          "name": "Math",
+          "score": 6
+        },
+        {
           "name": "Biology",
-          "score": 72
-        },
-        {
-          "name": "Geography",
-          "score": 72
-        },
-        {
-          "name": "Music",
-          "score": null
-        },
-        {
-          "name": "Computer Science",
           "score": null
         },
         {
@@ -3087,296 +3202,312 @@
           "score": null
         },
         {
-          "name": "Art",
-          "score": 93
+          "name": "Chemistry",
+          "score": null
         },
         {
-          "name": "PE",
+          "name": "Geography",
+          "score": 5
+        },
+        {
+          "name": "Computer Science",
           "score": null
+        },
+        {
+          "name": "Philosophy",
+          "score": 6
         }
       ]
     },
     {
       "id": 87,
-      "name": "Olivia Sanchez",
-      "email": "olivia.sanchez@yahoo.com",
-      "birthDate": "2002-03-21",
+      "name": "Samantha Johnson",
+      "email": "samantha.johnson@example.com",
+      "birthDate": "2002-09-09",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Art",
-          "score": 94
-        },
-        {
-          "name": "Physics",
-          "score": 85
-        },
-        {
-          "name": "Economics",
-          "score": 95
-        },
-        {
           "name": "History",
-          "score": 73
-        },
-        {
-          "name": "Philosophy",
-          "score": 57
+          "score": null
         },
         {
           "name": "Geography",
           "score": null
         },
         {
-          "name": "Math",
+          "name": "Art",
+          "score": 8
+        },
+        {
+          "name": "Philosophy",
+          "score": 10
+        },
+        {
+          "name": "Music",
           "score": null
+        },
+        {
+          "name": "PE",
+          "score": 7
+        },
+        {
+          "name": "Economics",
+          "score": 7
         }
       ]
     },
     {
       "id": 88,
-      "name": "Allison Taylor",
-      "email": "allison.taylor@school.edu",
-      "birthDate": "2004-01-25",
+      "name": "Morgan Jones",
+      "email": "morgan.jones@school.edu",
+      "birthDate": "2003-04-02",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Math",
-          "score": 75
-        },
-        {
-          "name": "Music",
-          "score": 76
-        },
-        {
-          "name": "Art",
-          "score": null
-        },
-        {
-          "name": "Computer Science",
-          "score": null
+          "name": "History",
+          "score": 10
         },
         {
           "name": "Geography",
-          "score": null
+          "score": 10
         },
         {
-          "name": "Economics",
-          "score": 66
+          "name": "Art",
+          "score": 6
+        },
+        {
+          "name": "Philosophy",
+          "score": 7
+        },
+        {
+          "name": "Music",
+          "score": 5
         },
         {
           "name": "PE",
-          "score": 65
+          "score": 10
+        },
+        {
+          "name": "Economics",
+          "score": 8
         }
       ]
     },
     {
       "id": 89,
-      "name": "Andrew Taylor",
-      "email": "andrew.taylor@gmail.com",
-      "birthDate": "2005-01-07",
+      "name": "Ryan Jones",
+      "email": "ryan.jones@hotmail.com",
+      "birthDate": "2004-08-10",
+      "course": "General Studies",
       "subjects": [
         {
           "name": "Math",
-          "score": 88
+          "score": 9
         },
         {
-          "name": "PE",
+          "name": "History",
           "score": null
         },
         {
-          "name": "Computer Science",
-          "score": 97
-        },
-        {
-          "name": "Philosophy",
-          "score": null
+          "name": "Geography",
+          "score": 5
         },
         {
           "name": "Economics",
-          "score": 88
-        },
-        {
-          "name": "Physics",
           "score": null
         },
         {
           "name": "Music",
+          "score": 5
+        },
+        {
+          "name": "PE",
+          "score": 5
+        },
+        {
+          "name": "Computer Science",
           "score": null
         }
       ]
     },
     {
       "id": 90,
-      "name": "Courtney Adams",
-      "email": "courtney.adams@example.com",
-      "birthDate": "2001-05-17",
+      "name": "Zachary Garcia",
+      "email": "zachary.garcia@yahoo.com",
+      "birthDate": "2004-06-22",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Math",
-          "score": 80
-        },
-        {
-          "name": "Biology",
-          "score": 80
-        },
-        {
-          "name": "Art",
-          "score": 71
+          "name": "History",
+          "score": null
         },
         {
           "name": "Geography",
-          "score": null
+          "score": 5
         },
         {
-          "name": "PE",
-          "score": 99
-        },
-        {
-          "name": "Computer Science",
-          "score": null
+          "name": "Art",
+          "score": 8
         },
         {
           "name": "Philosophy",
-          "score": 70
+          "score": 6
+        },
+        {
+          "name": "Music",
+          "score": 9
+        },
+        {
+          "name": "PE",
+          "score": 7
+        },
+        {
+          "name": "Economics",
+          "score": 6
         }
       ]
     },
     {
       "id": 91,
-      "name": "Justin Moore",
-      "email": "justin.moore@example.com",
-      "birthDate": "2003-12-26",
+      "name": "Aaron Wilson",
+      "email": "aaron.wilson@gmail.com",
+      "birthDate": "2005-12-08",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Philosophy",
-          "score": null
+          "name": "History",
+          "score": 9
         },
         {
           "name": "Geography",
-          "score": null
-        },
-        {
-          "name": "Math",
-          "score": 62
-        },
-        {
-          "name": "Economics",
-          "score": 91
-        },
-        {
-          "name": "PE",
-          "score": null
-        },
-        {
-          "name": "Biology",
-          "score": 56
+          "score": 7
         },
         {
           "name": "Art",
-          "score": 99
+          "score": 9
+        },
+        {
+          "name": "Philosophy",
+          "score": 6
+        },
+        {
+          "name": "Music",
+          "score": 9
+        },
+        {
+          "name": "PE",
+          "score": 7
+        },
+        {
+          "name": "Economics",
+          "score": null
         }
       ]
     },
     {
       "id": 92,
-      "name": "Ashley Flores",
-      "email": "ashley.flores@yahoo.com",
-      "birthDate": "2001-07-20",
+      "name": "Brooke Mitchell",
+      "email": "brooke.mitchell@hotmail.com",
+      "birthDate": "2005-12-19",
+      "course": "Science",
       "subjects": [
         {
-          "name": "PE",
-          "score": 55
-        },
-        {
-          "name": "Economics",
-          "score": 75
-        },
-        {
           "name": "Math",
-          "score": 97
-        },
-        {
-          "name": "Geography",
-          "score": 53
-        },
-        {
-          "name": "Physics",
-          "score": 63
-        },
-        {
-          "name": "History",
           "score": null
         },
         {
           "name": "Biology",
-          "score": 58
+          "score": 7
+        },
+        {
+          "name": "Physics",
+          "score": null
+        },
+        {
+          "name": "Chemistry",
+          "score": 9
+        },
+        {
+          "name": "Geography",
+          "score": 5
+        },
+        {
+          "name": "Computer Science",
+          "score": 6
+        },
+        {
+          "name": "Philosophy",
+          "score": null
         }
       ]
     },
     {
       "id": 93,
-      "name": "Jessica Williams",
-      "email": "jessica.williams@gmail.com",
-      "birthDate": "2005-03-26",
+      "name": "Chris Adams",
+      "email": "chris.adams@school.edu",
+      "birthDate": "2004-06-06",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Physics",
-          "score": null
+          "name": "PE",
+          "score": 9
         },
         {
           "name": "Biology",
           "score": null
         },
         {
-          "name": "History",
-          "score": 92
-        },
-        {
-          "name": "Geography",
-          "score": 55
-        },
-        {
-          "name": "Philosophy",
-          "score": 93
-        },
-        {
-          "name": "Computer Science",
-          "score": 66
+          "name": "Physics",
+          "score": null
         },
         {
           "name": "Math",
-          "score": 92
+          "score": null
+        },
+        {
+          "name": "History",
+          "score": 9
+        },
+        {
+          "name": "Geography",
+          "score": 6
+        },
+        {
+          "name": "Philosophy",
+          "score": 8
         }
       ]
     },
     {
       "id": 94,
-      "name": "Kayla Hernandez",
-      "email": "kayla.hernandez@hotmail.com",
-      "birthDate": "2000-03-27",
+      "name": "Samuel Young",
+      "email": "samuel.young@yahoo.com",
+      "birthDate": "2004-08-20",
+      "course": "Science",
       "subjects": [
         {
-          "name": "PE",
-          "score": 52
+          "name": "Math",
+          "score": 9
         },
         {
-          "name": "Economics",
-          "score": 95
+          "name": "Biology",
+          "score": 8
         },
         {
-          "name": "Geography",
+          "name": "Physics",
           "score": null
         },
         {
-          "name": "Math",
-          "score": 52
+          "name": "Chemistry",
+          "score": 7
         },
         {
-          "name": "History",
-          "score": 52
+          "name": "Geography",
+          "score": 8
         },
         {
           "name": "Computer Science",
-          "score": 51
+          "score": null
         },
         {
           "name": "Philosophy",
@@ -3386,516 +3517,543 @@
     },
     {
       "id": 95,
-      "name": "Andrew Ramirez",
-      "email": "andrew.ramirez@hotmail.com",
-      "birthDate": "2000-05-28",
+      "name": "Michael Mitchell",
+      "email": "michael.mitchell@gmail.com",
+      "birthDate": "2002-09-09",
+      "course": "Science",
       "subjects": [
         {
           "name": "Math",
           "score": null
         },
         {
-          "name": "Geography",
-          "score": 62
-        },
-        {
           "name": "Biology",
-          "score": 82
-        },
-        {
-          "name": "Computer Science",
-          "score": 95
+          "score": null
         },
         {
           "name": "Physics",
-          "score": 71
-        },
-        {
-          "name": "Economics",
-          "score": 72
-        },
-        {
-          "name": "PE",
           "score": null
+        },
+        {
+          "name": "Chemistry",
+          "score": 5
+        },
+        {
+          "name": "Geography",
+          "score": 10
+        },
+        {
+          "name": "Computer Science",
+          "score": null
+        },
+        {
+          "name": "Philosophy",
+          "score": 6
         }
       ]
     },
     {
       "id": 96,
-      "name": "Allison Williams",
-      "email": "allison.williams@hotmail.com",
-      "birthDate": "2003-11-25",
+      "name": "Stephanie Garcia",
+      "email": "stephanie.garcia@example.com",
+      "birthDate": "2003-08-11",
+      "course": "Science",
       "subjects": [
         {
           "name": "Math",
-          "score": 54
-        },
-        {
-          "name": "Geography",
-          "score": 100
-        },
-        {
-          "name": "Art",
-          "score": null
-        },
-        {
-          "name": "Economics",
-          "score": 98
-        },
-        {
-          "name": "Philosophy",
-          "score": 99
-        },
-        {
-          "name": "History",
-          "score": 96
+          "score": 6
         },
         {
           "name": "Biology",
-          "score": 80
+          "score": 6
+        },
+        {
+          "name": "Physics",
+          "score": 6
+        },
+        {
+          "name": "Chemistry",
+          "score": 7
+        },
+        {
+          "name": "Geography",
+          "score": 7
+        },
+        {
+          "name": "Computer Science",
+          "score": null
+        },
+        {
+          "name": "Philosophy",
+          "score": 6
         }
       ]
     },
     {
       "id": 97,
-      "name": "Ashley Martinez",
-      "email": "ashley.martinez@example.com",
-      "birthDate": "2004-07-10",
+      "name": "Jessica Taylor",
+      "email": "jessica.taylor@yahoo.com",
+      "birthDate": "2000-10-07",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Art",
-          "score": null
-        },
-        {
-          "name": "Music",
-          "score": null
-        },
-        {
-          "name": "Economics",
-          "score": 100
-        },
-        {
-          "name": "Geography",
-          "score": 75
+          "name": "Math",
+          "score": 8
         },
         {
           "name": "Biology",
-          "score": 100
+          "score": null
+        },
+        {
+          "name": "Physics",
+          "score": null
+        },
+        {
+          "name": "Chemistry",
+          "score": 8
+        },
+        {
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Computer Science",
+          "score": 10
         },
         {
           "name": "Philosophy",
-          "score": 89
-        },
-        {
-          "name": "History",
-          "score": 79
+          "score": 9
         }
       ]
     },
     {
       "id": 98,
-      "name": "Megan Rodriguez",
-      "email": "megan.rodriguez@school.edu",
-      "birthDate": "2001-09-04",
+      "name": "Brandon Campbell",
+      "email": "brandon.campbell@example.com",
+      "birthDate": "2005-05-28",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Art",
-          "score": null
-        },
-        {
           "name": "History",
-          "score": 61
-        },
-        {
-          "name": "Music",
-          "score": 91
-        },
-        {
-          "name": "Economics",
-          "score": 85
+          "score": null
         },
         {
           "name": "Geography",
           "score": null
         },
         {
-          "name": "Physics",
-          "score": 94
+          "name": "Art",
+          "score": 8
         },
         {
-          "name": "Biology",
-          "score": 89
+          "name": "Philosophy",
+          "score": 10
+        },
+        {
+          "name": "Music",
+          "score": null
+        },
+        {
+          "name": "PE",
+          "score": 6
+        },
+        {
+          "name": "Economics",
+          "score": 9
         }
       ]
     },
     {
       "id": 99,
-      "name": "Hannah Nguyen",
-      "email": "hannah.nguyen@example.com",
-      "birthDate": "2002-09-24",
+      "name": "Nicole Brown",
+      "email": "nicole.brown@school.edu",
+      "birthDate": "2000-12-24",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Biology",
-          "score": 78
-        },
-        {
-          "name": "Art",
-          "score": 57
-        },
-        {
-          "name": "History",
+          "name": "Math",
           "score": null
+        },
+        {
+          "name": "Biology",
+          "score": 10
+        },
+        {
+          "name": "Physics",
+          "score": 9
+        },
+        {
+          "name": "Chemistry",
+          "score": 9
+        },
+        {
+          "name": "Geography",
+          "score": 9
         },
         {
           "name": "Computer Science",
           "score": null
         },
         {
-          "name": "Math",
-          "score": null
-        },
-        {
           "name": "Philosophy",
-          "score": 61
-        },
-        {
-          "name": "Music",
-          "score": 66
+          "score": 6
         }
       ]
     },
     {
       "id": 100,
-      "name": "Rachel Anderson",
-      "email": "rachel.anderson@example.com",
-      "birthDate": "2001-08-22",
+      "name": "Samantha Young",
+      "email": "samantha.young@school.edu",
+      "birthDate": "2004-03-06",
+      "course": "Science",
       "subjects": [
         {
           "name": "Math",
           "score": null
         },
         {
+          "name": "Biology",
+          "score": 6
+        },
+        {
+          "name": "Physics",
+          "score": null
+        },
+        {
+          "name": "Chemistry",
+          "score": 5
+        },
+        {
+          "name": "Geography",
+          "score": null
+        },
+        {
           "name": "Computer Science",
-          "score": null
-        },
-        {
-          "name": "Economics",
-          "score": null
-        },
-        {
-          "name": "Music",
-          "score": 88
+          "score": 10
         },
         {
           "name": "Philosophy",
-          "score": 77
-        },
-        {
-          "name": "History",
-          "score": null
-        },
-        {
-          "name": "Art",
-          "score": 95
+          "score": 6
         }
       ]
     },
     {
       "id": 101,
-      "name": "Lauren Gonzalez",
-      "email": "lauren.gonzalez@example.com",
-      "birthDate": "2005-01-06",
+      "name": "Matthew Rodriguez",
+      "email": "matthew.rodriguez@hotmail.com",
+      "birthDate": "2005-09-23",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Economics",
-          "score": 59
-        },
-        {
-          "name": "Math",
-          "score": 74
+          "name": "History",
+          "score": 8
         },
         {
           "name": "Geography",
+          "score": 8
+        },
+        {
+          "name": "Art",
           "score": null
         },
         {
-          "name": "Computer Science",
+          "name": "Philosophy",
           "score": null
         },
         {
-          "name": "Physics",
-          "score": null
-        },
-        {
-          "name": "Biology",
-          "score": 78
+          "name": "Music",
+          "score": 7
         },
         {
           "name": "PE",
-          "score": 88
+          "score": null
+        },
+        {
+          "name": "Economics",
+          "score": null
         }
       ]
     },
     {
       "id": 102,
-      "name": "Joshua Moore",
-      "email": "joshua.moore@hotmail.com",
-      "birthDate": "2004-11-17",
+      "name": "Ashley Nguyen",
+      "email": "ashley.nguyen@example.com",
+      "birthDate": "2001-09-13",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Economics",
-          "score": null
-        },
-        {
-          "name": "Math",
-          "score": 84
-        },
-        {
-          "name": "Biology",
-          "score": null
-        },
-        {
-          "name": "Physics",
-          "score": null
-        },
-        {
-          "name": "Computer Science",
-          "score": 68
-        },
-        {
-          "name": "Art",
-          "score": 51
+          "name": "History",
+          "score": 5
         },
         {
           "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Art",
+          "score": null
+        },
+        {
+          "name": "Philosophy",
+          "score": 10
+        },
+        {
+          "name": "Music",
+          "score": null
+        },
+        {
+          "name": "PE",
+          "score": null
+        },
+        {
+          "name": "Economics",
           "score": null
         }
       ]
     },
     {
       "id": 103,
-      "name": "Victoria Wilson",
-      "email": "victoria.wilson@gmail.com",
-      "birthDate": "2000-08-03",
+      "name": "Christian Hill",
+      "email": "christian.hill@yahoo.com",
+      "birthDate": "2005-09-05",
+      "course": "General Studies",
       "subjects": [
         {
+          "name": "Math",
+          "score": 10
+        },
+        {
           "name": "History",
-          "score": null
-        },
-        {
-          "name": "Physics",
-          "score": null
-        },
-        {
-          "name": "Art",
-          "score": 76
-        },
-        {
-          "name": "Music",
-          "score": 78
-        },
-        {
-          "name": "Biology",
-          "score": 98
-        },
-        {
-          "name": "Computer Science",
-          "score": 70
+          "score": 9
         },
         {
           "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Economics",
+          "score": null
+        },
+        {
+          "name": "Music",
+          "score": null
+        },
+        {
+          "name": "PE",
+          "score": null
+        },
+        {
+          "name": "Computer Science",
           "score": null
         }
       ]
     },
     {
       "id": 104,
-      "name": "Andrew Nelson",
-      "email": "andrew.nelson@example.com",
-      "birthDate": "2002-07-18",
+      "name": "Jasmine Thompson",
+      "email": "jasmine.thompson@gmail.com",
+      "birthDate": "2004-09-01",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Music",
-          "score": 82
-        },
-        {
-          "name": "Biology",
-          "score": 87
-        },
-        {
-          "name": "Economics",
-          "score": 72
-        },
-        {
-          "name": "Art",
-          "score": 86
-        },
-        {
-          "name": "Philosophy",
-          "score": null
+          "name": "Math",
+          "score": 9
         },
         {
           "name": "History",
-          "score": 55
+          "score": 6
+        },
+        {
+          "name": "Geography",
+          "score": 5
+        },
+        {
+          "name": "Economics",
+          "score": 7
+        },
+        {
+          "name": "Music",
+          "score": null
+        },
+        {
+          "name": "PE",
+          "score": null
         },
         {
           "name": "Computer Science",
-          "score": null
+          "score": 9
         }
       ]
     },
     {
       "id": 105,
-      "name": "Samuel Smith",
-      "email": "samuel.smith@yahoo.com",
-      "birthDate": "2002-08-18",
+      "name": "Tyler Robinson",
+      "email": "tyler.robinson@yahoo.com",
+      "birthDate": "2001-01-14",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Biology",
+          "name": "History",
+          "score": 7
+        },
+        {
+          "name": "Geography",
           "score": null
         },
         {
-          "name": "PE",
-          "score": 82
+          "name": "Art",
+          "score": 9
         },
         {
-          "name": "Computer Science",
-          "score": 78
-        },
-        {
-          "name": "Economics",
-          "score": null
-        },
-        {
-          "name": "Physics",
-          "score": 59
+          "name": "Philosophy",
+          "score": 9
         },
         {
           "name": "Music",
-          "score": 95
+          "score": 7
         },
         {
-          "name": "Math",
-          "score": null
+          "name": "PE",
+          "score": 9
+        },
+        {
+          "name": "Economics",
+          "score": 6
         }
       ]
     },
     {
       "id": 106,
-      "name": "Justin Lopez",
-      "email": "justin.lopez@example.com",
-      "birthDate": "2004-10-28",
+      "name": "Christian White",
+      "email": "christian.white@gmail.com",
+      "birthDate": "2004-11-14",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Economics",
-          "score": 98
+          "name": "PE",
+          "score": 7
         },
         {
-          "name": "Geography",
-          "score": 76
-        },
-        {
-          "name": "Philosophy",
-          "score": null
+          "name": "Biology",
+          "score": 8
         },
         {
           "name": "Physics",
           "score": null
         },
         {
-          "name": "Art",
-          "score": 99
+          "name": "Math",
+          "score": 10
         },
         {
           "name": "History",
           "score": null
         },
         {
-          "name": "Math",
-          "score": 75
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Philosophy",
+          "score": 8
         }
       ]
     },
     {
       "id": 107,
-      "name": "Allison Hall",
-      "email": "allison.hall@school.edu",
-      "birthDate": "2005-11-06",
+      "name": "Benjamin Anderson",
+      "email": "benjamin.anderson@hotmail.com",
+      "birthDate": "2002-08-13",
+      "course": "Science",
       "subjects": [
+        {
+          "name": "Math",
+          "score": null
+        },
         {
           "name": "Biology",
           "score": null
         },
         {
-          "name": "Art",
-          "score": null
-        },
-        {
           "name": "Physics",
           "score": null
         },
         {
-          "name": "PE",
+          "name": "Chemistry",
           "score": null
         },
         {
-          "name": "Math",
-          "score": 84
+          "name": "Geography",
+          "score": 9
         },
         {
           "name": "Computer Science",
-          "score": 92
+          "score": null
         },
         {
           "name": "Philosophy",
-          "score": 65
+          "score": 7
         }
       ]
     },
     {
       "id": 108,
-      "name": "Samantha Lopez",
-      "email": "samantha.lopez@example.com",
-      "birthDate": "2001-03-09",
+      "name": "Allison Sullivan",
+      "email": "allison.sullivan@gmail.com",
+      "birthDate": "2000-06-19",
+      "course": "General Studies",
       "subjects": [
         {
           "name": "Math",
-          "score": 73
+          "score": null
         },
         {
           "name": "History",
+          "score": 6
+        },
+        {
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Economics",
           "score": null
         },
         {
           "name": "Music",
-          "score": 71
+          "score": 5
         },
         {
           "name": "PE",
-          "score": 74
-        },
-        {
-          "name": "Physics",
-          "score": null
+          "score": 7
         },
         {
           "name": "Computer Science",
-          "score": null
-        },
-        {
-          "name": "Art",
-          "score": null
+          "score": 8
         }
       ]
     },
     {
       "id": 109,
-      "name": "Madison Hernandez",
-      "email": "madison.hernandez@hotmail.com",
-      "birthDate": "2003-09-22",
+      "name": "Taylor Wright",
+      "email": "taylor.wright@example.com",
+      "birthDate": "2003-11-14",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Physics",
+          "name": "History",
+          "score": null
+        },
+        {
+          "name": "Geography",
+          "score": 9
+        },
+        {
+          "name": "Art",
+          "score": 9
+        },
+        {
+          "name": "Philosophy",
           "score": null
         },
         {
@@ -3903,457 +4061,581 @@
           "score": null
         },
         {
+          "name": "PE",
+          "score": 7
+        },
+        {
           "name": "Economics",
-          "score": 96
-        },
-        {
-          "name": "Philosophy",
-          "score": 91
-        },
-        {
-          "name": "Math",
-          "score": null
-        },
-        {
-          "name": "History",
-          "score": null
-        },
-        {
-          "name": "Computer Science",
           "score": null
         }
       ]
     },
     {
       "id": 110,
-      "name": "Joseph Robinson",
-      "email": "joseph.robinson@example.com",
-      "birthDate": "2004-05-26",
+      "name": "Victoria Clark",
+      "email": "victoria.clark@example.com",
+      "birthDate": "2002-09-27",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "History",
-          "score": 73
-        },
-        {
-          "name": "Philosophy",
-          "score": 79
+          "name": "PE",
+          "score": 8
         },
         {
           "name": "Biology",
-          "score": 93
-        },
-        {
-          "name": "PE",
-          "score": 97
-        },
-        {
-          "name": "Art",
-          "score": 85
-        },
-        {
-          "name": "Economics",
           "score": null
         },
         {
+          "name": "Physics",
+          "score": 8
+        },
+        {
           "name": "Math",
+          "score": 6
+        },
+        {
+          "name": "History",
+          "score": 6
+        },
+        {
+          "name": "Geography",
+          "score": 5
+        },
+        {
+          "name": "Philosophy",
           "score": null
         }
       ]
     },
     {
       "id": 111,
-      "name": "Zachary Hernandez",
-      "email": "zachary.hernandez@gmail.com",
-      "birthDate": "2005-04-13",
+      "name": "Alexandra Perez",
+      "email": "alexandra.perez@hotmail.com",
+      "birthDate": "2003-02-12",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Music",
-          "score": null
-        },
-        {
           "name": "PE",
-          "score": null
-        },
-        {
-          "name": "Economics",
-          "score": 58
-        },
-        {
-          "name": "Geography",
-          "score": 54
-        },
-        {
-          "name": "Art",
-          "score": null
-        },
-        {
-          "name": "Computer Science",
-          "score": 91
+          "score": 9
         },
         {
           "name": "Biology",
+          "score": 8
+        },
+        {
+          "name": "Physics",
+          "score": 9
+        },
+        {
+          "name": "Math",
+          "score": 5
+        },
+        {
+          "name": "History",
+          "score": 10
+        },
+        {
+          "name": "Geography",
           "score": null
+        },
+        {
+          "name": "Philosophy",
+          "score": 7
         }
       ]
     },
     {
       "id": 112,
-      "name": "Brooke Williams",
-      "email": "brooke.williams@yahoo.com",
-      "birthDate": "2002-10-07",
+      "name": "Jasmine Miller",
+      "email": "jasmine.miller@example.com",
+      "birthDate": "2004-08-16",
+      "course": "Physical Education",
       "subjects": [
         {
+          "name": "PE",
+          "score": null
+        },
+        {
+          "name": "Biology",
+          "score": 10
+        },
+        {
+          "name": "Physics",
+          "score": 8
+        },
+        {
           "name": "Math",
-          "score": 95
+          "score": 5
         },
         {
-          "name": "Music",
-          "score": 69
+          "name": "History",
+          "score": null
         },
         {
-          "name": "Art",
+          "name": "Geography",
           "score": null
         },
         {
           "name": "Philosophy",
-          "score": null
-        },
-        {
-          "name": "PE",
-          "score": 95
-        },
-        {
-          "name": "Computer Science",
-          "score": 58
-        },
-        {
-          "name": "Economics",
           "score": null
         }
       ]
     },
     {
       "id": 113,
-      "name": "Joseph Johnson",
-      "email": "joseph.johnson@hotmail.com",
-      "birthDate": "2002-07-14",
+      "name": "Michael Jones",
+      "email": "michael.jones@example.com",
+      "birthDate": "2004-04-25",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Math",
-          "score": 54
-        },
-        {
-          "name": "Art",
-          "score": null
-        },
-        {
-          "name": "Philosophy",
-          "score": 97
+          "name": "History",
+          "score": 5
         },
         {
           "name": "Geography",
-          "score": null
+          "score": 7
         },
         {
-          "name": "History",
-          "score": 56
+          "name": "Art",
+          "score": 9
         },
         {
-          "name": "Biology",
-          "score": 61
+          "name": "Philosophy",
+          "score": 5
         },
         {
-          "name": "Computer Science",
+          "name": "Music",
+          "score": 10
+        },
+        {
+          "name": "PE",
+          "score": 5
+        },
+        {
+          "name": "Economics",
           "score": null
         }
       ]
     },
     {
       "id": 114,
-      "name": "Hannah Johnson",
-      "email": "hannah.johnson@gmail.com",
-      "birthDate": "2005-01-12",
+      "name": "Samuel Williams",
+      "email": "samuel.williams@gmail.com",
+      "birthDate": "2002-05-12",
+      "course": "Physical Education",
       "subjects": [
         {
-          "name": "Philosophy",
+          "name": "PE",
+          "score": 5
+        },
+        {
+          "name": "Biology",
           "score": null
         },
         {
           "name": "Physics",
-          "score": 92
+          "score": 7
         },
         {
-          "name": "Art",
-          "score": null
+          "name": "Math",
+          "score": 5
+        },
+        {
+          "name": "History",
+          "score": 9
+        },
+        {
+          "name": "Geography",
+          "score": 10
+        },
+        {
+          "name": "Philosophy",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Tyler Nelson",
+      "email": "tyler.nelson@example.com",
+      "birthDate": "2001-04-24",
+      "course": "General Studies",
+      "subjects": [
+        {
+          "name": "Math",
+          "score": 10
         },
         {
           "name": "History",
           "score": null
         },
         {
-          "name": "Computer Science",
-          "score": 65
-        },
-        {
           "name": "Geography",
-          "score": 50
+          "score": null
         },
         {
-          "name": "Biology",
-          "score": null
-        }
-      ]
-    },
-    {
-      "id": 115,
-      "name": "Christian Jackson",
-      "email": "christian.jackson@example.com",
-      "birthDate": "2004-11-15",
-      "subjects": [
-        {
-          "name": "Physics",
-          "score": null
+          "name": "Economics",
+          "score": 8
         },
         {
           "name": "Music",
           "score": null
         },
         {
-          "name": "Art",
-          "score": null
-        },
-        {
-          "name": "History",
-          "score": 91
-        },
-        {
-          "name": "Geography",
-          "score": 61
-        },
-        {
-          "name": "Philosophy",
-          "score": 93
-        },
-        {
           "name": "PE",
-          "score": 98
+          "score": 8
+        },
+        {
+          "name": "Computer Science",
+          "score": null
         }
       ]
     },
     {
       "id": 116,
-      "name": "Victoria Nguyen",
-      "email": "victoria.nguyen@example.com",
-      "birthDate": "2000-02-07",
+      "name": "Joseph Perez",
+      "email": "joseph.perez@yahoo.com",
+      "birthDate": "2002-02-19",
+      "course": "Science",
       "subjects": [
         {
-          "name": "Computer Science",
-          "score": 94
-        },
-        {
-          "name": "History",
-          "score": 94
-        },
-        {
-          "name": "Physics",
-          "score": 81
+          "name": "Math",
+          "score": 9
         },
         {
           "name": "Biology",
-          "score": 98
+          "score": 6
+        },
+        {
+          "name": "Physics",
+          "score": 5
+        },
+        {
+          "name": "Chemistry",
+          "score": 5
+        },
+        {
+          "name": "Geography",
+          "score": null
+        },
+        {
+          "name": "Computer Science",
+          "score": null
         },
         {
           "name": "Philosophy",
-          "score": 77
-        },
-        {
-          "name": "Math",
-          "score": 70
-        },
-        {
-          "name": "Economics",
           "score": null
         }
       ]
     },
     {
       "id": 117,
-      "name": "Benjamin Taylor",
-      "email": "benjamin.taylor@example.com",
-      "birthDate": "2003-11-07",
+      "name": "Sarah Hill",
+      "email": "sarah.hill@yahoo.com",
+      "birthDate": "2003-10-26",
+      "course": "General Studies",
       "subjects": [
         {
-          "name": "Economics",
-          "score": null
-        },
-        {
-          "name": "Biology",
-          "score": 54
-        },
-        {
-          "name": "Physics",
-          "score": 60
+          "name": "Math",
+          "score": 8
         },
         {
           "name": "History",
-          "score": 76
+          "score": 8
         },
         {
-          "name": "Art",
-          "score": 87
+          "name": "Geography",
+          "score": 10
+        },
+        {
+          "name": "Economics",
+          "score": 8
+        },
+        {
+          "name": "Music",
+          "score": 5
+        },
+        {
+          "name": "PE",
+          "score": null
         },
         {
           "name": "Computer Science",
           "score": null
-        },
-        {
-          "name": "PE",
-          "score": 65
         }
       ]
     },
     {
       "id": 118,
-      "name": "Stephanie Jones",
-      "email": "stephanie.jones@yahoo.com",
-      "birthDate": "2001-07-19",
+      "name": "James Brown",
+      "email": "james.brown@hotmail.com",
+      "birthDate": "2003-10-10",
+      "course": "General Studies",
       "subjects": [
         {
+          "name": "Math",
+          "score": 10
+        },
+        {
+          "name": "History",
+          "score": 10
+        },
+        {
           "name": "Geography",
-          "score": 80
+          "score": 9
         },
         {
           "name": "Economics",
-          "score": null
+          "score": 10
         },
         {
           "name": "Music",
           "score": null
         },
         {
-          "name": "Biology",
+          "name": "PE",
           "score": null
         },
         {
-          "name": "Math",
-          "score": 57
-        },
-        {
-          "name": "History",
-          "score": 93
-        },
-        {
-          "name": "Physics",
-          "score": 63
+          "name": "Computer Science",
+          "score": 5
         }
       ]
     },
     {
       "id": 119,
-      "name": "David Anderson",
-      "email": "david.anderson@gmail.com",
-      "birthDate": "2005-02-14",
+      "name": "Joseph Thomas",
+      "email": "joseph.thomas@gmail.com",
+      "birthDate": "2000-04-24",
+      "course": "Arts",
       "subjects": [
         {
-          "name": "Music",
-          "score": 89
-        },
-        {
-          "name": "Economics",
-          "score": 61
-        },
-        {
-          "name": "Math",
-          "score": 69
-        },
-        {
-          "name": "Computer Science",
-          "score": null
-        },
-        {
           "name": "History",
-          "score": 64
+          "score": 6
+        },
+        {
+          "name": "Geography",
+          "score": 9
         },
         {
           "name": "Art",
           "score": null
-        },
-        {
-          "name": "Physics",
-          "score": 73
-        }
-      ]
-    },
-    {
-      "id": 120,
-      "name": "Kayla Allen",
-      "email": "kayla.allen@school.edu",
-      "birthDate": "2005-02-25",
-      "subjects": [
-        {
-          "name": "Geography",
-          "score": null
-        },
-        {
-          "name": "Computer Science",
-          "score": 87
-        },
-        {
-          "name": "Math",
-          "score": 95
-        },
-        {
-          "name": "History",
-          "score": null
-        },
-        {
-          "name": "PE",
-          "score": 62
-        },
-        {
-          "name": "Biology",
-          "score": null
-        },
-        {
-          "name": "Economics",
-          "score": null
-        }
-      ]
-    },
-    {
-      "id": 121,
-      "name": "Tyler Davis",
-      "email": "tyler.davis@yahoo.com",
-      "birthDate": "2001-08-18",
-      "subjects": [
-        {
-          "name": "Music",
-          "score": 77
-        },
-        {
-          "name": "Geography",
-          "score": null
-        },
-        {
-          "name": "Physics",
-          "score": 96
-        },
-        {
-          "name": "Economics",
-          "score": 99
         },
         {
           "name": "Philosophy",
           "score": null
         },
         {
-          "name": "Computer Science",
-          "score": 77
+          "name": "Music",
+          "score": null
         },
         {
-          "name": "Math",
-          "score": 80
+          "name": "PE",
+          "score": null
+        },
+        {
+          "name": "Economics",
+          "score": 6
         }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Brandon Young",
+      "email": "brandon.young@example.com",
+      "birthDate": "2000-03-24",
+      "course": "Science",
+      "subjects": [
+        {
+          "name": "Math",
+          "score": 5
+        },
+        {
+          "name": "Biology",
+          "score": null
+        },
+        {
+          "name": "Physics",
+          "score": 6
+        },
+        {
+          "name": "Chemistry",
+          "score": 5
+        },
+        {
+          "name": "Geography",
+          "score": 10
+        },
+        {
+          "name": "Computer Science",
+          "score": 7
+        },
+        {
+          "name": "Philosophy",
+          "score": null
+        }
+      ]
+    },
+    {
+      "name": "Agent Smith",
+      "email": "demo.account@domain.com",
+      "birthDate": "2000-01-01",
+      "course": "Arts",
+      "subjects": [
+        {
+          "name": "History",
+          "score": ""
+        },
+        {
+          "name": "Geography",
+          "score": ""
+        },
+        {
+          "name": "Art",
+          "score": ""
+        },
+        {
+          "name": "Philosophy",
+          "score": ""
+        },
+        {
+          "name": "Music",
+          "score": ""
+        },
+        {
+          "name": "PE",
+          "score": ""
+        },
+        {
+          "name": "Economics",
+          "score": "10"
+        }
+      ],
+      "id": 121
+    },
+    {
+      "name": "Joze Novak",
+      "email": "jozenovak@gmail.com",
+      "birthDate": "2000-01-01",
+      "course": "General Studies",
+      "subjects": [
+        {
+          "name": "Math",
+          "score": "5"
+        },
+        {
+          "name": "History",
+          "score": ""
+        },
+        {
+          "name": "Geography",
+          "score": ""
+        },
+        {
+          "name": "Economics",
+          "score": "8"
+        },
+        {
+          "name": "Music",
+          "score": ""
+        },
+        {
+          "name": "PE",
+          "score": ""
+        },
+        {
+          "name": "Computer Science",
+          "score": ""
+        }
+      ],
+      "id": 122
+    },
+    {
+      "name": "Agent Smith",
+      "email": "demo.account@domain.com",
+      "birthDate": "2000-01-01",
+      "course": "Science",
+      "subjects": [
+        {
+          "name": "Math",
+          "score": ""
+        },
+        {
+          "name": "Biology",
+          "score": ""
+        },
+        {
+          "name": "Physics",
+          "score": ""
+        },
+        {
+          "name": "Chemistry",
+          "score": ""
+        },
+        {
+          "name": "Geography",
+          "score": ""
+        },
+        {
+          "name": "Computer Science",
+          "score": ""
+        },
+        {
+          "name": "Philosophy",
+          "score": ""
+        }
+      ],
+      "id": 123
+    }
+  ],
+  "courses": [
+    {
+      "name": "Science",
+      "subjects": [
+        "Math",
+        "Biology",
+        "Physics",
+        "Chemistry",
+        "Geography",
+        "Computer Science",
+        "Philosophy"
+      ]
+    },
+    {
+      "name": "Arts",
+      "subjects": [
+        "History",
+        "Geography",
+        "Art",
+        "Philosophy",
+        "Music",
+        "PE",
+        "Economics"
+      ]
+    },
+    {
+      "name": "General Studies",
+      "subjects": [
+        "Math",
+        "History",
+        "Geography",
+        "Economics",
+        "Music",
+        "PE",
+        "Computer Science"
+      ]
+    },
+    {
+      "name": "Physical Education",
+      "subjects": [
+        "PE",
+        "Biology",
+        "Physics",
+        "Math",
+        "History",
+        "Geography",
+        "Philosophy"
       ]
     }
   ]

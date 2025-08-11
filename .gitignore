@@ -43,3 +43,6 @@ Thumbs.db
 
 # Ignore environment files
 /src/environments/
+
+# Ignore the JSON database
+/src/db.json

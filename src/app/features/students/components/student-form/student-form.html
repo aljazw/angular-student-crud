@@ -1,0 +1,62 @@
+<form [formGroup]="studentForm" (ngSubmit)="onSubmit()" class="student-form">
+    <label class="form-group">
+        Name:
+        <input formControlName="name" type="text" />
+    </label>
+    @let nameCtrl = studentForm.get('name');
+
+    @if (nameCtrl?.touched && nameCtrl?.errors) {
+        @for (errorKey of objectKeys(nameCtrl!.errors!); track errorKey) {
+            <p class="error-msg">{{ nameErrorMessages[errorKey] }}</p>
+        }
+    }
+
+    <label class="form-group">
+        Email:
+        <input formControlName="email" type="email" />
+    </label>
+    @if (studentForm.get('email')?.invalid && studentForm.get('email')?.touched) {
+        <p class="error-msg">Enter a valid email.</p>
+    }
+
+    <label class="form-group">
+        Birth Date:
+        <input formControlName="birthDate" type="date" />
+    </label>
+    @if (studentForm.get('birthDate')?.errors?.['required'] && studentForm.get('birthDate')?.touched) {
+        <p class="error-msg">Birth date is required.</p>
+    }
+    @if (studentForm.get('birthDate')?.errors?.['outOfRange']) {
+        <p class="error-msg">Birth year must be between 1980 and 2020.</p>
+    }
+
+    <label class="form-group">
+        Course:
+        <select formControlName="course">
+            <option value="">Select a course</option>
+            @for (course of courses; track course.name) {
+                <option [value]="course.name">{{ course.name }}</option>
+            }
+        </select>
+    </label>
+    @if (studentForm.get('course')?.invalid && studentForm.get('course')?.touched) {
+        <p class="error-msg">Course is required</p>
+    }
+
+
+    <div class="subjects-group" formArrayName="subjects">
+        @for (subject of selectedCourse?.subjects ?? []; let i = $index; track subject) {
+            <div class="subject-score">
+                <label class="subject-label"> {{ subject }}:</label>
+                <select [formControlName]="i">
+                    <option value="">Choose grade</option>
+                    @for (score of scores; track score) {
+                        <option [value]="score"> {{ score }} </option>
+                    }
+                </select>
+            </div>
+        }
+    </div>
+
+    <button type="submit" [disabled]="studentForm.invalid" class="submit-btn">Add Student</button>
+</form>

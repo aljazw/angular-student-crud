@@ -1,8 +1,54 @@
 const fs = require('fs');
 
-const subjectNames = [
-  "Math", "History", "Geography", "Art", "Philosophy",
-  "Biology", "Physics", "Economics", "Music", "PE", "Computer Science"
+const courses = [
+  {
+    name: "Science",
+    subjects: [
+        "Math",
+        "Biology",
+        "Physics",
+        "Chemistry",     
+        "Geography",
+        "Computer Science",
+        "Philosophy"
+    ]
+  },
+  {
+    name: "Arts",
+    subjects: [
+        "History",
+        "Geography",
+        "Art",
+        "Philosophy",
+        "Music",
+        "PE",
+        "Economics"
+    ]
+  },
+  {
+    name: "General Studies",
+    subjects: [
+        "Math",
+        "History",
+        "Geography",
+        "Economics",
+        "Music",
+        "PE",
+        "Computer Science"
+    ]
+  },
+  {
+    name: "Physical Education",
+    subjects: [
+        "PE",
+        "Biology",
+        "Physics",
+        "Math",
+        "History",
+        "Geography",
+        "Philosophy"
+    ]
+  }
 ];
 
 const firstNames = [
@@ -28,7 +74,7 @@ const lastNames = [
 
 function randomScore() {
   // 40% chance to be null (no score)
-  return Math.random() < 0.4 ? null : Math.floor(Math.random() * 51) + 50; // scores between 50-100
+  return Math.random() < 0.4 ? null : Math.floor(Math.random() * 6) + 5;
 }
 
 function randomDate(startYear = 2000, endYear = 2005) {
@@ -55,33 +101,31 @@ function generateStudent(id) {
   const name = randomName();
   const email = randomEmail(name);
   const birthDate = randomDate();
+
+  const course = courses[Math.floor(Math.random() * courses.length)];
   
-  // Pick 7 subjects randomly from subjectNames
-  let subjects = [];
-  // Shuffle subjectNames and take first 7
-  const shuffled = subjectNames.sort(() => 0.5 - Math.random());
-  for (let i = 0; i < 7; i++) {
-    subjects.push({
-      name: shuffled[i],
-      score: randomScore()
-    });
-  }
+  const subjects = course.subjects.map(subjectName => ({
+    name: subjectName,
+    score: randomScore()
+  }));
 
   return {
     id,
     name,
     email,
     birthDate,
+    course: course.name,
     subjects
   };
 }
 
 const students = [];
-for(let i = 1; i <= 121; i++) {
+for(let i = 0; i <= 120; i++) {
   students.push(generateStudent(i));
 }
 
 const db = { students };
+db.courses = courses;
 
 fs.writeFileSync('db.json', JSON.stringify(db, null, 2));
 

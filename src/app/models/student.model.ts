@@ -1,24 +1,21 @@
-export const SUBJECTS = [
-    'Math',
-    'Physics',
-    'Chemistry',
-    'Biology',
-    'History',
-    'Geography',
-    'English'
-] as const;
-
-export type SubjectName = (typeof SUBJECTS)[number];
-
 export interface Subject {
-    name: SubjectName;
+    name: string;
     score: number | null;
 }
 
+export interface Course {
+    name: string;
+    subjects: string[];
+}
+
 export interface Student {
-    id: number;
+    id?: number;
     name: string;
     email: string;
-    birtDate: string;
+    birthDate: string;
+    course: string;
     subjects: Subject[];
 }
+
+
+
