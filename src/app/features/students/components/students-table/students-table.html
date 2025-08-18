@@ -9,7 +9,15 @@
     [totalRecords]="totalRecords"
     [lazy]="true"
     (onLazyLoad)="loadStudents($event)"
+    [currentPageReportTemplate]="'Showing {first} to {last} of {totalRecords} entries'"
+    [showCurrentPageReport]="true"
+    [pageLinks]="5"
+    [showPageLinks]="true"
+    [rowsPerPageOptions]="[5, 10, 20]"
+    class="custom-datatable"
+    paginatorStyleClass="custom-paginator"
 >
+
     <ng-template pTemplate="header">
         <tr>
             <th>#</th>
@@ -17,22 +25,39 @@
             <th>Email</th>
             <th>Birth Date</th>
             <th>Course</th>
-            <th>Details</th>
+            <th>Action</th>
         </tr>
     </ng-template>
 
     <ng-template pTemplate="body" let-student let-i="rowIndex">
-        <tr>
+        <tr clas="p-selectable-row">
             <td>{{ i + 1 }}</td>
             <td>{{ student.name }}</td>
             <td>{{ student.email }}</td>
             <td>{{ student.birthDate }}</td>
             <td>{{ student.course }}</td>
-            <td><a> Show details </a></td>
+            <td>
+                <div>
+                    <p-button 
+                        icon="pi pi-info-circle"
+                        text
+                        severity="info"
+                    />
+                    <p-button 
+                        icon="pi pi-pen-to-square"
+                        text
+                        severity="info"
+                    />
+                    <p-button 
+                        icon="pi pi-trash"
+                        text
+                        severity="warn"
+                    />
+                </div>
+            </td>
         </tr>
     </ng-template>
 </p-table>
-
 
 
 

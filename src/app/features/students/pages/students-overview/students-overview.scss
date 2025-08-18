@@ -1,0 +1,20 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--p-custom-0);
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+}
+
+.btn-container {
+    align-self: flex-end;
+    margin-top: 1.5rem;
+    margin-bottom: 4.8rem;
+}

@@ -1,1 +1,124 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.custom-datatable {
+    table {
+        border-collapse: 'separate';
+        border-spacing: 0 0.7rem;
+    }
+
+    thead > tr > th {
+        padding-top: 1.3rem;
+        padding-bottom: 1.3rem;
+        background-color: var(--p-custom-200);
+        color: var(--p-surface-0);
+        border: none;
+    }
+
+    tbody > tr {
+        background: transparent;
+        &:hover {
+            td {
+                background-color: var(--p-custom-100);
+            }
+        }
+    }
+
+    th, td {
+        border: none;
+        &:first-child {
+            padding-left: 1.2em;
+            border-top-left-radius: 0.5em;
+            border-bottom-left-radius: 0.5em;
+        }
+        &:last-child {
+            border-top-right-radius: 0.5em;
+            border-bottom-right-radius: 0.5em;
+            width: 11%; 
+        }
+    }
+
+    td {
+        border: none;
+        background-color: var(--p-custom-50);
+    }
+}
+
+.custom-paginator {
+    font-size: 0.94rem; 
+    background: transparent;
+    color: var(--p-custom-100); 
+
+    .p-paginator-current {
+        margin-right: auto;
+    }
+
+    .p-paginator-pages {
+        .p-paginator-page {
+            background-color: transparent;
+            border-radius: 0.25em; 
+        }
+        .p-paginator-page-selected {
+            background-color: transparent;
+            font-weight: 600;
+            color: var(--p-custom-950); 
+        }
+    }
+    
+   
+    .p-paginator-next, 
+    .p-paginator-prev 
+    {
+        margin: 0 0.75rem;
+        padding: 0 0.7em;
+        color: var(--p-custom-300);
+        border-radius: 0.25em; 
+    }
+    
+
+
+    .p-paginator-next-icon,
+    .p-paginator-prev-icon {
+        display: none;
+    }
+
+    .p-paginator-next {
+        &::after {
+            content: "Next >";
+        }
+    }
+
+    .p-paginator-prev {
+        &::after {
+            content: "< Prev";
+        }
+    }
+
+    .p-paginator-rpp-dropdown {
+        border:none;
+        background-color: var(--p-custom-0);
+        color: var(--p-custom-100); 
+    }
+
+    .p-paginator-first:hover,
+    .p-paginator-last:hover,
+    .p-paginator-next:hover, 
+    .p-paginator-prev:hover,
+    .p-paginator-page:hover {
+        background-color: var(--p-custom-100) !important;
+        color: var(--p-custom-950) !important;
+    }
+
+    .p-paginator-first-icon,
+    .p-paginator-last-icon {
+        opacity: 0.6;;
+    }
+
+   
+    
+}

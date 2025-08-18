@@ -1,15 +1,16 @@
-import { Component,  } from '@angular/core';
-import { Student } from '../../../../models/student.model';
-import { CommonModule } from '@angular/common';
+import { Component, ViewEncapsulation,  } from '@angular/core';
+import { Student } from '../../../../shared/models/student.model';
 import { TableLazyLoadEvent, TableModule } from 'primeng/table';
 import { StudentService } from '../../../../core/services/student.service';
+import { PaginatorModule } from 'primeng/paginator';
+import { Button } from "primeng/button";
+
 
 @Component({
     selector: 'app-students-table',
-    standalone: true,
-    imports: [CommonModule, TableModule],
+    imports: [TableModule, PaginatorModule, Button],
     templateUrl: './students-table.html',
-    styleUrl: './students-table.scss'
+    styleUrl: './students-table.scss',
 })
 export class StudentsTable {
     students: Student[] = [];
@@ -34,7 +35,6 @@ export class StudentsTable {
                 this.loading = false;
             },
             error: err => console.error('Error fetching students', err),
-            complete: () => console.log('Fetching students data successfully')
         });
     }
 
@@ -42,8 +42,11 @@ export class StudentsTable {
         this.studentService.countStudents().subscribe({
             next: (count) => { this.totalRecords = count; },
             error: (err) => { console.log('Error fetching student count', err)},
-            complete: ()=> console.log('Number of counts: ', this.totalRecords)
         });
+    }
+
+    onIconClick() {
+        console.log("Icon clicked");
     }
 
 }

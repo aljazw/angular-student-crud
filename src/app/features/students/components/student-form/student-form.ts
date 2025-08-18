@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { Course, Subject } from '../../../../models/student.model';
+import { Course, Subject } from '../../../../shared/models/student.model';
 import { StudentService } from '../../../../core/services/student.service';
-import { AbstractControl, FormArray, FormBuilder, FormControl, FormGroup, ReactiveFormsModule, ValidationErrors, Validators } from '@angular/forms';
+import { AbstractControl, FormArray, FormBuilder, FormGroup, ReactiveFormsModule, ValidationErrors, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
 
@@ -14,10 +14,10 @@ function birthDateRangeValidator(control: AbstractControl): ValidationErrors | n
 }
 
 @Component({
-  selector: 'app-student-form',
-  imports: [ReactiveFormsModule],
-  templateUrl: './student-form.html',
-  styleUrl: './student-form.scss'
+    selector: 'app-student-form',
+    imports: [ReactiveFormsModule],
+    templateUrl: './student-form.html',
+    styleUrl: './student-form.scss'
 })
 export class StudentForm {
     studentForm!: FormGroup;
@@ -108,7 +108,7 @@ export class StudentForm {
             }
 
             this.studentService.addStudent(newStudent).subscribe({
-                complete: () => { this.router.navigate(['/students']) },
+                next: () => { this.router.navigate(['/students']) },
                 error: err => console.log('Failed to add student', err)
             });
         }
