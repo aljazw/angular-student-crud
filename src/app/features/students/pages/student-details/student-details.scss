@@ -1,0 +1,27 @@
+.container {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    color: var(--p-custom-950)
+}
+
+.student-info {
+    display: flex;
+    margin-bottom: 1em;
+    gap: 1em;
+}
+
+.subjects-list {
+    list-style-type: none;
+    font-size: 1.2rem;
+    >li {
+        margin: 1rem 0;
+    }
+}
+
+.subject-name {
+    margin-right: 1.2em;
+}
+
+.btn-container {
+    margin-top: 3rem;
+}

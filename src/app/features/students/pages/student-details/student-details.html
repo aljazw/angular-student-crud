@@ -1,0 +1,29 @@
+<div class="container">
+    <h2>Student Overview</h2>
+    <div>
+        <span class="student-info"><strong>Name:</strong> {{student.name}}</span>
+        <span class="student-info"><strong>Email:</strong> {{student.email}}</span>
+        <span class="student-info"><strong>Birth Date:</strong> {{student.birthDate}}</span>
+        <span class="student-info"><strong>Course:</strong> {{student.course}}</span>
+        <span class="student-info"><strong>Subjects:</strong></span>
+        <ul class="subjects-list">
+            @for (subject of student.subjects; track subject) {
+                <li>
+                    <span class="subject-name">{{subject.name}}:</span>
+                    <span>{{subject.score || 'Still cooking...'}}</span>
+                </li>
+            }
+        </ul>
+    </div>
+    <div class="btn-container">
+        <p-button 
+            label="Go Back"
+            icon="pi pi-arrow-left"
+            (onClick)="goBack()"
+            severity="secondary"
+            [outlined]="true"
+            class="go-back-btn"
+        />
+    </div>
+    
+</div>

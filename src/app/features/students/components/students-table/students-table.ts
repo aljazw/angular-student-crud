@@ -5,6 +5,7 @@ import { StudentService } from '../../../../core/services/student.service';
 import { PaginatorModule } from 'primeng/paginator';
 import { Button } from "primeng/button";
 import { ConfirmationService } from 'primeng/api';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-students-table',
@@ -18,7 +19,7 @@ export class StudentsTable {
     totalRecords: number = 0;
     latestTableEvent: TableLazyLoadEvent = { first: 0, rows: 20} as TableLazyLoadEvent;
 
-    constructor(private studentService: StudentService, private confirmationService: ConfirmationService) {}
+    constructor(private studentService: StudentService, private confirmationService: ConfirmationService, private router: Router) {}
 
     ngOnInit() {
         this.loadStudents(this.latestTableEvent);
@@ -69,6 +70,10 @@ export class StudentsTable {
                 });
             },
         });
+    }
+
+    viewDetails(student: Student) {
+        this.router.navigate(['/students', student.id]);
     }
 
 }

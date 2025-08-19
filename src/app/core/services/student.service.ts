@@ -52,4 +52,9 @@ export class StudentService {
     deleteStudent(id: number): Observable<void> {
         return this.http.delete<void>(`${this.studentsApiUrl}/${id}`);
     }
+
+    getStudent(id: number): Observable<Student> {
+        return this.http.get<Student>(`${this.studentsApiUrl}/${id}`);
+    }
+
 }
