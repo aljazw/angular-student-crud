@@ -48,4 +48,8 @@ export class StudentService {
     addStudent(student: Student): Observable<Student> {
         return this.http.post<Student>(this.studentsApiUrl, student);
     }
+
+    deleteStudent(id: number): Observable<void> {
+        return this.http.delete<void>(`${this.studentsApiUrl}/${id}`);
+    }
 }
