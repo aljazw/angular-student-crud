@@ -1,7 +1,7 @@
 <form [formGroup]="studentForm" (ngSubmit)="onSubmit()" class="student-form">
     <label class="form-group">
         Name:
-        <input formControlName="name" type="text" />
+        <input pInputText formControlName="name" type="text" />
     </label>
     @let nameCtrl = studentForm.get('name');
 
@@ -13,7 +13,7 @@
 
     <label class="form-group">
         Email:
-        <input formControlName="email" type="email" />
+        <input pInputText formControlName="email" type="email" />
     </label>
     @if (studentForm.get('email')?.invalid && studentForm.get('email')?.touched) {
         <p class="error-msg">Enter a valid email.</p>
@@ -21,7 +21,9 @@
 
     <label class="form-group">
         Birth Date:
-        <input formControlName="birthDate" type="date" />
+        <p-datepicker 
+            formControlName="birthDate" 
+        />
     </label>
     @if (studentForm.get('birthDate')?.errors?.['required'] && studentForm.get('birthDate')?.touched) {
         <p class="error-msg">Birth date is required.</p>
@@ -32,12 +34,12 @@
 
     <label class="form-group">
         Course:
-        <select formControlName="course">
-            <option value="">Select a course</option>
-            @for (course of courses; track course.name) {
-                <option [value]="course.name">{{ course.name }}</option>
-            }
-        </select>
+        <p-select 
+            formControlName="course"
+            [options]="courses"
+            optionLabel="name"
+            placeholder="Select a Course"
+        />
     </label>
     @if (studentForm.get('course')?.invalid && studentForm.get('course')?.touched) {
         <p class="error-msg">Course is required</p>
@@ -48,15 +50,21 @@
         @for (subject of selectedCourse?.subjects ?? []; let i = $index; track subject) {
             <div class="subject-score">
                 <label class="subject-label"> {{ subject }}:</label>
-                <select [formControlName]="i">
-                    <option value="">Choose grade</option>
-                    @for (score of scores; track score) {
-                        <option [value]="score"> {{ score }} </option>
-                    }
-                </select>
+                <p-select 
+                    [formControlName]="i"
+                    [options]="scores"
+                    placeholder="Choose Score"
+                />
             </div>
         }
     </div>
 
-    <button type="submit" [disabled]="studentForm.invalid" class="submit-btn">Add Student</button>
+        <button pButton 
+            severity="info" 
+            type="submit"
+            [disabled]="studentForm.invalid"
+        >
+            <span pButtonLabel>Submit</span>
+        </button>
+
 </form>

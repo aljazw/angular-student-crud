@@ -1,2 +1,19 @@
-<app-student-form></app-student-form>
+<div class="container">
+    <div class="btn-container">
+        <button pButton
+            [text]="true"
+            class="back-btn"
+            (click)="goBack()"
+            severity="contrast"
+        >
+            <i class="pi pi-arrow-left" pButtonIcon></i>
+            <span pButtonLabel>Go Back</span>
+        </button>
+    </div>
+    <div class="student-form-container">
+        <h2>Student Input Form</h2>
+        <app-student-form></app-student-form>
+    </div>
+</div>
+
 

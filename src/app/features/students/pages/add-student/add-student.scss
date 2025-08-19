@@ -1,7 +1,31 @@
 :host {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: center;;
     align-items: center;
-    height: 100vh;
-    background-color: #f8f8f8;
+    min-height: 100vh;
+    padding: 6rem 0;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: var(--p-custom-200);
+}
+
+.student-form-container {
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+.btn-container {
+    width: 100%;
+    border-bottom-width: 1.5px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--p-custom-200);
+}
+

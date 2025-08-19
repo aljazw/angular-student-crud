@@ -1,8 +1,12 @@
 import { Component } from '@angular/core';
-import { Course, Subject } from '../../../../shared/models/student.model';
+import { Course, Student, Subject } from '../../../../shared/models/student.model';
 import { StudentService } from '../../../../core/services/student.service';
 import { AbstractControl, FormArray, FormBuilder, FormGroup, ReactiveFormsModule, ValidationErrors, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { InputTextModule } from 'primeng/inputtext';
+import { DatePickerModule } from 'primeng/datepicker';
+import { SelectModule } from 'primeng/select';
+import { ButtonModule } from 'primeng/button';
 
 
 
@@ -15,7 +19,7 @@ function birthDateRangeValidator(control: AbstractControl): ValidationErrors | n
 
 @Component({
     selector: 'app-student-form',
-    imports: [ReactiveFormsModule],
+    imports: [ReactiveFormsModule, InputTextModule, DatePickerModule, SelectModule, ButtonModule],
     templateUrl: './student-form.html',
     styleUrl: './student-form.scss'
 })
@@ -30,7 +34,7 @@ export class StudentForm {
     nameErrorMessages: Record<string, string> = {
         required: 'Name is required',
         minlength: 'Name must be at least 4 characters',
-        maxlength: 'Name muse be at most 40 characters'
+        maxlength: 'Name must be at most 40 characters'
     };
 
 
@@ -50,9 +54,10 @@ export class StudentForm {
                 Validators.maxLength(40)
             ]],
             email: ['demo.account@domain.com', [
-                Validators.required, Validators.email
+                Validators.required, 
+                Validators.email
             ]],
-            birthDate: ['2000-01-01', [
+            birthDate: [new Date(2000, 0, 1), [
                 Validators.required,
                 birthDateRangeValidator
             ]],
@@ -60,8 +65,8 @@ export class StudentForm {
             subjects: this.fb.array([])
         });
 
-        this.studentForm.get('course')?.valueChanges.subscribe(selectedCourseName => {
-            this.selectedCourse = this.courses.find(c => c.name === selectedCourseName);
+        this.studentForm.get('course')?.valueChanges.subscribe(course => {
+            this.selectedCourse = course;
             this.setSubjectControls();
         })
     }
@@ -81,13 +86,16 @@ export class StudentForm {
         this.studentService.getCourses().subscribe({
             next: courses => { this.courses = courses },
             error: err => { console.log('Error fetching courses', err) },
-            complete: ()=> console.log('Courses: ', this.courses)
         })
     }
 
     onSubmit() {
         if (this.studentForm.valid) {
             const formValue = this.studentForm.value;
+
+            const date = formValue.birthDate;
+            const formatted = `${date.getFullYear()}-${('0'+(date.getMonth()+1)).slice(-2)}-${('0'+date.getDate()).slice(-2)}`;
+
 
             let subjects: Subject[] = [];
 
@@ -99,11 +107,11 @@ export class StudentForm {
                 }
             }
 
-            const newStudent = {
+            const newStudent: Student = {
                 name: formValue.name,
                 email: formValue.email,
-                birthDate: formValue.birthDate,
-                course: formValue.course,
+                birthDate: formatted,
+                course: formValue.course.name,
                 subjects: subjects
             }
 
@@ -113,4 +121,5 @@ export class StudentForm {
             });
         }
     }
+
 }
