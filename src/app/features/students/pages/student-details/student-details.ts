@@ -4,6 +4,7 @@ import { Student } from '../../../../shared/models/student.model';
 import { ActivatedRoute, Router } from '@angular/router';
 import { EMPTY, switchMap } from 'rxjs';
 import { ButtonModule } from 'primeng/button';
+import { StudentTableService } from '../../services/student-table.service';
 
 @Component({
   selector: 'app-student-details',
@@ -13,11 +14,17 @@ import { ButtonModule } from 'primeng/button';
 })
 export class StudentDetails {
 
-    student!: Student;
+    student: Student | null = null;
     
-    constructor(private studentService: StudentService, private route: ActivatedRoute, private router: Router) {}
+    constructor(
+        private studentService: StudentService, 
+        private route: ActivatedRoute, 
+        private router: Router,
+        private studentTableService: StudentTableService
+    ) {}
 
     ngOnInit() {
+        console.log(this.studentTableService.lastTableEvent)
         this.route.paramMap.pipe(
             switchMap(params => {
                 const idParam = params.get('id');

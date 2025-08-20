@@ -5,7 +5,8 @@
 <p-table 
     [value]="students"
     [paginator]="true"
-    [rows]="20"
+    [rows]="studentTableService.lastTableEvent.rows ?? 20"
+    [first]="studentTableService.lastTableEvent.first"
     [totalRecords]="totalRecords"
     [lazy]="true"
     (onLazyLoad)="loadStudents($event)"
@@ -53,7 +54,7 @@
                         icon="pi pi-trash"
                         text
                         severity="warn"
-                        (click)="confirmDelete($event, student, latestTableEvent)"
+                        (click)="confirmDelete($event, student)"
                     />
                 </div>
             </td>

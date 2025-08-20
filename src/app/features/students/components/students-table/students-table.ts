@@ -6,6 +6,7 @@ import { PaginatorModule } from 'primeng/paginator';
 import { Button } from "primeng/button";
 import { ConfirmationService } from 'primeng/api';
 import { Router } from '@angular/router';
+import { StudentTableService } from '../../services/student-table.service';
 
 @Component({
     selector: 'app-students-table',
@@ -17,13 +18,28 @@ export class StudentsTable {
     students: Student[] = [];
     loading: boolean = true;
     totalRecords: number = 0;
-    latestTableEvent: TableLazyLoadEvent = { first: 0, rows: 20} as TableLazyLoadEvent;
 
-    constructor(private studentService: StudentService, private confirmationService: ConfirmationService, private router: Router) {}
+    constructor(
+        private studentService: StudentService,
+        private confirmationService: ConfirmationService, 
+        private router: Router,
+        protected studentTableService: StudentTableService
+    ) {}
+
+    private reloadTable() {
+        this.loadStudents(this.studentTableService.lastTableEvent);
+        this.fetchTotalRecords();
+    }
+
+    private fetchTotalRecords() {
+        this.studentService.countStudents().subscribe({
+            next: (count) => { this.totalRecords = count; },
+            error: (err) => { console.log('Error fetching student count', err)},
+        });
+    }
 
     ngOnInit() {
-        this.loadStudents(this.latestTableEvent);
-        this.fetchTotalRecords();
+        this.reloadTable();
     }
 
     loadStudents(event: TableLazyLoadEvent) {
@@ -34,23 +50,16 @@ export class StudentsTable {
         this.studentService.getStudents({ start, limit }).subscribe({
             next: students => {
                 this.students = students;
-                this.latestTableEvent = event;
+                this.studentTableService.lastTableEvent = event;
                 this.loading = false;
             },
             error: err => console.error('Error fetching students', err),
         });
     }
 
-    fetchTotalRecords() {
-        this.studentService.countStudents().subscribe({
-            next: (count) => { this.totalRecords = count; },
-            error: (err) => { console.log('Error fetching student count', err)},
-        });
-    }
-
-    confirmDelete(event: Event, student: Student, tableEvent: TableLazyLoadEvent) {
+    confirmDelete(event: Event, student: Student) {
         this.confirmationService.confirm({
-            target: event.target as EventTarget, // anchor to the clicked button
+            target: event.target as EventTarget,
             header: '⚠️ Critical Action',
             message: `
                 <strong>Do you really want to delete this record?</strong>
@@ -62,10 +71,7 @@ export class StudentsTable {
             rejectButtonStyleClass: 'p-button-secondary',
             accept: () => {
                 this.studentService.deleteStudent(student.id!).subscribe({
-                    next: () => {
-                        this.loadStudents(tableEvent);
-                        this.fetchTotalRecords();
-                    },
+                    next: () => this.reloadTable(),
                     error: (err) => console.error('Error deleting student', err),
                 });
             },
