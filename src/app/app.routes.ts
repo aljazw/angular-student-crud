@@ -1,11 +1,11 @@
 import { Routes } from '@angular/router';
-import { StudentsOverview } from './features/students/pages/students-overview/students-overview';
-import { AddStudent } from './features/students/pages/add-student/add-student';
-import { StudentDetails } from './features/students/pages/student-details/student-details';
+import { DashboardPage } from './features/students/dashboard/dashboard-page/dashboard-page';
+import { StudentDetailsPage } from './features/students/details/student-details-page/student-details-page';
+import { StudentAddPage } from './features/students/add/student-add-page/student-add-page';
 
 export const routes: Routes = [
-    { path: 'students', component: StudentsOverview },
-    { path: 'students/add', component: AddStudent },
-    { path: 'students/:id', component: StudentDetails },
-    { path: '', redirectTo: 'students', pathMatch: 'full'}
+    { path: 'dashboard', component: DashboardPage },
+    { path: 'students/add', component:  StudentAddPage},
+    { path: 'students/:id', component: StudentDetailsPage },
+    { path: '', redirectTo: 'dashboard', pathMatch: 'full'}
 ];

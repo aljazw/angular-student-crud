@@ -109,19 +109,19 @@ function generateStudent(id) {
     score: randomScore()
   }));
 
-  return {
-    id,
-    name,
-    email,
-    birthDate,
-    course: course.name,
-    subjects
-  };
+    return {
+        id,
+        name,
+        email,
+        birthDate,
+        course: course,
+        subjects
+    };
 }
 
 const students = [];
 for(let i = 0; i <= 120; i++) {
-  students.push(generateStudent(i));
+    students.push(generateStudent(i));
 }
 
 const db = { students };

@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { Course, Student, Subject } from '../../../../shared/models/student.model';
-import { StudentService } from '../../../../core/services/student.service';
 import { AbstractControl, FormArray, FormBuilder, FormGroup, ReactiveFormsModule, ValidationErrors, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { InputTextModule } from 'primeng/inputtext';
 import { DatePickerModule } from 'primeng/datepicker';
 import { SelectModule } from 'primeng/select';
 import { ButtonModule } from 'primeng/button';
+import { Course, Student, StudentSubject } from '../../../../../shared/models/student.model';
+import { StudentService } from '../../../../../core/services/student.service';
 
 
 
@@ -96,27 +96,25 @@ export class StudentForm {
             const date = formValue.birthDate;
             const formatted = `${date.getFullYear()}-${('0'+(date.getMonth()+1)).slice(-2)}-${('0'+date.getDate()).slice(-2)}`;
 
-
-            let subjects: Subject[] = [];
+            let subjects: StudentSubject[] = [];
 
             if (this.selectedCourse) {
-                for(let i = 0; i < this.selectedCourse.subjects.length; i++) {
-                    subjects.push({
-                        name: this.selectedCourse.subjects[i], 
-                        score: formValue.subjects[i]})
-                }
+                subjects = this.selectedCourse.subjects.map((name, i) => ({
+                    name,
+                    score: formValue.subjects[i]
+                }))
             }
 
             const newStudent: Student = {
                 name: formValue.name,
                 email: formValue.email,
                 birthDate: formatted,
-                course: formValue.course.name,
-                subjects: subjects
+                course: formValue.course,
+                subjects
             }
 
             this.studentService.addStudent(newStudent).subscribe({
-                next: () => { this.router.navigate(['/students']) },
+                next: () => { this.router.navigate(['/dashboard']) },
                 error: err => console.log('Failed to add student', err)
             });
         }

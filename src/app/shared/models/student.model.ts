@@ -1,11 +1,11 @@
-export interface Subject {
-    name: string;
-    score: number | null;
-}
-
 export interface Course {
     name: string;
-    subjects: string[];
+    subjects: string[];   
+}
+
+export interface StudentSubject {
+    name: string;
+    score: number | null;
 }
 
 export interface Student {
@@ -13,8 +13,8 @@ export interface Student {
     name: string;
     email: string;
     birthDate: string;
-    course: string;
-    subjects: Subject[];
+    course: Course;
+    subjects: StudentSubject[];  
 }
 
 

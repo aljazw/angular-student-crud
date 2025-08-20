@@ -1,11 +1,11 @@
 import { Component  } from '@angular/core';
-import { Student } from '../../../../shared/models/student.model';
 import { TableLazyLoadEvent, TableModule } from 'primeng/table';
-import { StudentService } from '../../../../core/services/student.service';
 import { PaginatorModule } from 'primeng/paginator';
 import { Button } from "primeng/button";
 import { ConfirmationService } from 'primeng/api';
 import { Router } from '@angular/router';
+import { Student } from '../../../../../shared/models/student.model';
+import { StudentService } from '../../../../../core/services/student.service';
 import { StudentTableService } from '../../services/student-table.service';
 
 @Component({

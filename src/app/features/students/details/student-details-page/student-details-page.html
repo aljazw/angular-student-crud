@@ -1,0 +1,67 @@
+@if (student) {
+    <div class="container">
+        <h2>Student Overview</h2>
+        <div>
+            <span class="student-info"><strong>Name:</strong> {{student.name}}</span>
+            <span class="student-info"><strong>Email:</strong> {{student.email}}</span>
+            <span class="student-info"><strong>Birth Date:</strong> {{student.birthDate}}</span>
+            <span class="student-info">
+                <strong>Course:</strong>
+                @if (!editingCourse) {
+                    {{student.course.name}}
+                    <p-button 
+                        icon="pi pi-pen-to-square"
+                        text
+                        severity="info"
+                        (click)="editCourse(student.course)"
+                    />
+                } @else {
+                        <p-select
+                        [options]="courses"
+                        optionLabel="name"
+                        [(ngModel)]="selectedCourse"
+                        placeholder="Select a Course"
+                    />
+                    <p-button (click)="cancelEdit('course')" text [outlined]="true" severity="secondary">Cancel</p-button>
+                    <p-button (click)="saveCourse()" severity="info">Save</p-button>
+                } 
+                
+            </span>
+            <span class="student-info"><strong>Subjects:</strong></span>
+            <ul class="subjects-list">
+                @for (subject of student.subjects; track subject) {
+                    <li>
+                        <span>{{subject.name}}:</span>
+                        @if (editingSubject !== subject) {
+                            <span>{{subject.score || 'Still cooking...'}}</span>
+                            <p-button 
+                                icon="pi pi-pen-to-square"
+                                text
+                                severity="info"
+                                (click)="editSubject(subject)"
+                            />
+                        } @else {
+                             <p-select
+                                [options]="scores"
+                                [(ngModel)]="selectedScore"
+                                placeholder="Choose Score"
+                            ></p-select>
+                            <p-button (click)="cancelEdit('subject')" text [outlined]="true" severity="secondary">Cancel</p-button>
+                            <p-button (click)="saveSubject(subject)" severity="info">Save</p-button>
+                        }
+                    </li>
+                }
+            </ul>
+        </div>
+        <div class="btn-container">
+            <p-button 
+                label="Go Back"
+                icon="pi pi-arrow-left"
+                (onClick)="goBack(router)"
+                severity="secondary"
+                [outlined]="true"
+                class="go-back-btn"
+            />
+        </div>
+    </div>
+}

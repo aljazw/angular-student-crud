@@ -57,4 +57,9 @@ export class StudentService {
         return this.http.get<Student>(`${this.studentsApiUrl}/${id}`);
     }
 
+    updateStudent(updatedStudent: Student): Observable<Student> {
+        const url = `${this.studentsApiUrl}/${updatedStudent.id}`;
+        return this.http.put<Student>(url, updatedStudent);
+    }
+
 }

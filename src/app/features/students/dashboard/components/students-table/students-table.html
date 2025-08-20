@@ -36,7 +36,7 @@
             <td>{{ student.name }}</td>
             <td>{{ student.email }}</td>
             <td>{{ student.birthDate }}</td>
-            <td>{{ student.course }}</td>
+            <td>{{ student.course.name }}</td>
             <td>
                 <div>
                     <p-button 
@@ -44,11 +44,6 @@
                         text
                         severity="info"
                         (click)="viewDetails(student)"
-                    />
-                    <p-button 
-                        icon="pi pi-pen-to-square"
-                        text
-                        severity="info"
                     />
                     <p-button 
                         icon="pi pi-trash"
