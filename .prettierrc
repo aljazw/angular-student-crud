@@ -1,7 +1,7 @@
 {
-  "editorconfig": true,
-  "printWidth": 100,
-  "singleQuote": true,
-  "trailingComma": "all",
-  "arrowParens": "always"
+    "editorconfig": true,
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always"
 }
