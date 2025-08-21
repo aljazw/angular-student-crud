@@ -42,7 +42,7 @@ testem.log
 Thumbs.db
 
 # Ignore environment files
-/src/environments/*
+/src/environments/environment.ts
 
 # Ignore the JSON database
 db.json
