@@ -7,10 +7,11 @@ import { Router } from '@angular/router';
 import { Student } from '../../../../../shared/models/student.model';
 import { StudentService } from '../../../../../core/services/student.service';
 import { StudentTableService } from '../../services/student-table.service';
+import { DatePipe } from '@angular/common';
 
 @Component({
     selector: 'app-students-table',
-    imports: [TableModule, PaginatorModule, Button],
+    imports: [TableModule, PaginatorModule, Button, DatePipe],
     templateUrl: './students-table.html',
     styleUrl: './students-table.scss',
 })

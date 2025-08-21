@@ -10,10 +10,11 @@ import {
 import { SelectModule } from 'primeng/select';
 import { FormsModule } from '@angular/forms';
 import { EMPTY, switchMap } from 'rxjs';
+import { DatePipe } from '@angular/common';
 
 @Component({
     selector: 'app-student-details-page',
-    imports: [ButtonModule, SelectModule, FormsModule],
+    imports: [ButtonModule, SelectModule, FormsModule, DatePipe],
     templateUrl: './student-details-page.html',
     styleUrl: './student-details-page.scss',
 })

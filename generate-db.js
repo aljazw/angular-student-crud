@@ -119,8 +119,10 @@ function generateStudent(id) {
     };
 }
 
+const totalStudents = parseInt(process.argv[2], 10) || 120;
+
 const students = [];
-for(let i = 0; i <= 120; i++) {
+for (let i = 0; i < totalStudents; i++) {
     students.push(generateStudent(i));
 }
 
@@ -129,4 +131,4 @@ db.courses = courses;
 
 fs.writeFileSync('db.json', JSON.stringify(db, null, 2));
 
-console.log('db.json generated with 121 students.');
+console.log(`db.json generated with ${totalStudents} students.`);
