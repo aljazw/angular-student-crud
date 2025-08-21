@@ -3,7 +3,7 @@
         Name:
         <input pInputText formControlName="name" type="text" />
     </label>
-    @let nameCtrl = studentForm.get('name');
+    @let nameCtrl = studentForm.get("name");
 
     @if (nameCtrl?.touched && nameCtrl?.errors) {
         @for (errorKey of objectKeys(nameCtrl!.errors!); track errorKey) {
@@ -15,42 +15,54 @@
         Email:
         <input pInputText formControlName="email" type="email" />
     </label>
-    @if (studentForm.get('email')?.invalid && studentForm.get('email')?.touched) {
+    @if (
+        studentForm.get("email")?.invalid && studentForm.get("email")?.touched
+    ) {
         <p class="error-msg">Enter a valid email.</p>
     }
 
-    <label class="form-group">
+    <label [for]="'birthDate'" class="form-group">
         Birth Date:
-        <p-datepicker 
-            formControlName="birthDate" 
-        />
+        <p-datepicker id="birthDate" formControlName="birthDate" />
     </label>
-    @if (studentForm.get('birthDate')?.errors?.['required'] && studentForm.get('birthDate')?.touched) {
+    @if (
+        studentForm.get("birthDate")?.errors?.["required"] &&
+        studentForm.get("birthDate")?.touched
+    ) {
         <p class="error-msg">Birth date is required.</p>
     }
-    @if (studentForm.get('birthDate')?.errors?.['outOfRange']) {
+    @if (studentForm.get("birthDate")?.errors?.["outOfRange"]) {
         <p class="error-msg">Birth year must be between 1980 and 2020.</p>
     }
 
-    <label class="form-group">
+    <label class="form-group" [for]="'course'">
         Course:
-        <p-select 
+        <p-select
+            id="course"
             formControlName="course"
             [options]="courses"
             optionLabel="name"
             placeholder="Select a Course"
         />
     </label>
-    @if (studentForm.get('course')?.invalid && studentForm.get('course')?.touched) {
+    @if (
+        studentForm.get("course")?.invalid && studentForm.get("course")?.touched
+    ) {
         <p class="error-msg">Course is required</p>
     }
 
-
     <div class="subjects-group" formArrayName="subjects">
-        @for (subject of selectedCourse?.subjects ?? []; let i = $index; track subject) {
+        @for (
+            subject of selectedCourse?.subjects ?? [];
+            let i = $index;
+            track subject
+        ) {
             <div class="subject-score">
-                <label class="subject-label"> {{ subject }}:</label>
-                <p-select 
+                <label class="subject-label" [for]="'subject-' + i">
+                    {{ subject }}:</label
+                >
+                <p-select
+                    id="subject-{{ i }}"
                     [formControlName]="i"
                     [options]="scores"
                     placeholder="Choose Score"
@@ -59,12 +71,12 @@
         }
     </div>
 
-        <button pButton 
-            severity="info" 
-            type="submit"
-            [disabled]="studentForm.invalid"
-        >
-            <span pButtonLabel>Submit</span>
-        </button>
-
+    <button
+        pButton
+        severity="info"
+        type="submit"
+        [disabled]="studentForm.invalid"
+    >
+        <span pButtonLabel>Submit</span>
+    </button>
 </form>

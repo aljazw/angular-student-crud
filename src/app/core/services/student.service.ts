@@ -1,19 +1,22 @@
 import { HttpClient, HttpParams, HttpResponse } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { map, Observable } from 'rxjs';
 import { Course, Student } from '../../shared/models/student.model';
 import { environment } from '../../../environments/environment';
 
 @Injectable({
-    providedIn: 'root'
+    providedIn: 'root',
 })
 export class StudentService {
     private studentsApiUrl = `${environment.apiUrl}/students`;
     private coursesApiUrl = `${environment.apiUrl}/courses`;
 
-    constructor(private http: HttpClient) {}
+    private http = inject(HttpClient);
 
-    getStudents(params?: {start?: number; limit?: number }): Observable<Student[]> {
+    getStudents(params?: {
+        start?: number;
+        limit?: number;
+    }): Observable<Student[]> {
         let httpParams = new HttpParams();
 
         if (params) {
@@ -25,20 +28,24 @@ export class StudentService {
             }
         }
 
-        return this.http.get<Student[]>(this.studentsApiUrl, {params: httpParams });
+        return this.http.get<Student[]>(this.studentsApiUrl, {
+            params: httpParams,
+        });
     }
 
     countStudents(): Observable<number> {
         const params = new HttpParams().set('_limit', '0');
-        return this.http.get<Student[]>(this.studentsApiUrl, {
-            params,
-            observe: 'response'
-        }).pipe(
-            map((response: HttpResponse<Student[]>) => {
-                const totalCount = response.headers.get('X-Total-Count');
-                return totalCount ? parseInt(totalCount, 10) : 0;
+        return this.http
+            .get<Student[]>(this.studentsApiUrl, {
+                params,
+                observe: 'response',
             })
-        )
+            .pipe(
+                map((response: HttpResponse<Student[]>) => {
+                    const totalCount = response.headers.get('X-Total-Count');
+                    return totalCount ? parseInt(totalCount, 10) : 0;
+                }),
+            );
     }
 
     getCourses(): Observable<Course[]> {
@@ -61,5 +68,4 @@ export class StudentService {
         const url = `${this.studentsApiUrl}/${updatedStudent.id}`;
         return this.http.put<Student>(url, updatedStudent);
     }
-
 }

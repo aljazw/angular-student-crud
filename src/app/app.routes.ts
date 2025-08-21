@@ -5,7 +5,7 @@ import { StudentAddPage } from './features/students/add/student-add-page/student
 
 export const routes: Routes = [
     { path: 'dashboard', component: DashboardPage },
-    { path: 'students/add', component:  StudentAddPage},
+    { path: 'students/add', component: StudentAddPage },
     { path: 'students/:id', component: StudentDetailsPage },
-    { path: '', redirectTo: 'dashboard', pathMatch: 'full'}
+    { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
 ];

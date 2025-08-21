@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
 import { Router } from '@angular/router';
 import { StudentsTable } from '../components/students-table/students-table';
@@ -7,13 +7,12 @@ import { StudentsTable } from '../components/students-table/students-table';
     selector: 'app-dashboard-page',
     imports: [StudentsTable, ButtonModule],
     templateUrl: './dashboard-page.html',
-    styleUrl: './dashboard-page.scss'
+    styleUrl: './dashboard-page.scss',
 })
 export class DashboardPage {
-    constructor(private router: Router) {}
+    private router = inject(Router);
 
     goToAddStudent() {
         this.router.navigate(['/students/add']);
     }
-
 }

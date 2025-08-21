@@ -1,6 +1,6 @@
 export interface Course {
     name: string;
-    subjects: string[];   
+    subjects: string[];
 }
 
 export interface StudentSubject {
@@ -14,8 +14,5 @@ export interface Student {
     email: string;
     birthDate: string;
     course: Course;
-    subjects: StudentSubject[];  
+    subjects: StudentSubject[];
 }
-
-
-

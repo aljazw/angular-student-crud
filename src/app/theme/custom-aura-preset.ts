@@ -1,4 +1,4 @@
-import { definePreset } from "@primeuix/themes";
+import { definePreset } from '@primeuix/themes';
 import Aura from '@primeuix/themes/aura';
 
 const CustomAuraPreset = definePreset(Aura, {
@@ -12,7 +12,7 @@ const CustomAuraPreset = definePreset(Aura, {
                     200: '{neutral.400}',
                     300: '{neutral.600}',
                     950: '{neutral.950}',
-                }
+                },
             },
             dark: {
                 custom: {
@@ -22,11 +22,10 @@ const CustomAuraPreset = definePreset(Aura, {
                     200: '{neutral.700}',
                     300: '{neutral.600}',
                     950: '{neutral.50}',
-                }
-            }
-        }
+                },
+            },
+        },
     },
-
 });
 
 export default CustomAuraPreset;

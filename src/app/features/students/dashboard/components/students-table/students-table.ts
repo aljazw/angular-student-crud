@@ -1,7 +1,7 @@
-import { Component  } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { TableLazyLoadEvent, TableModule } from 'primeng/table';
 import { PaginatorModule } from 'primeng/paginator';
-import { Button } from "primeng/button";
+import { Button } from 'primeng/button';
 import { ConfirmationService } from 'primeng/api';
 import { Router } from '@angular/router';
 import { Student } from '../../../../../shared/models/student.model';
@@ -14,17 +14,15 @@ import { StudentTableService } from '../../services/student-table.service';
     templateUrl: './students-table.html',
     styleUrl: './students-table.scss',
 })
-export class StudentsTable {
-    students: Student[] = [];
-    loading: boolean = true;
-    totalRecords: number = 0;
+export class StudentsTable implements OnInit {
+    private studentService = inject(StudentService);
+    private confirmationService = inject(ConfirmationService);
+    private router = inject(Router);
+    protected studentTableService = inject(StudentTableService);
 
-    constructor(
-        private studentService: StudentService,
-        private confirmationService: ConfirmationService, 
-        private router: Router,
-        protected studentTableService: StudentTableService
-    ) {}
+    students: Student[] = [];
+    loading = true;
+    totalRecords = 0;
 
     private reloadTable() {
         this.loadStudents(this.studentTableService.lastTableEvent);
@@ -33,8 +31,12 @@ export class StudentsTable {
 
     private fetchTotalRecords() {
         this.studentService.countStudents().subscribe({
-            next: (count) => { this.totalRecords = count; },
-            error: (err) => { console.log('Error fetching student count', err)},
+            next: (count) => {
+                this.totalRecords = count;
+            },
+            error: (err) => {
+                console.log('Error fetching student count', err);
+            },
         });
     }
 
@@ -46,14 +48,14 @@ export class StudentsTable {
         this.loading = true;
         const start = event.first ?? 0;
         const limit = event.rows ?? 20;
-    
+
         this.studentService.getStudents({ start, limit }).subscribe({
-            next: students => {
+            next: (students) => {
                 this.students = students;
                 this.studentTableService.lastTableEvent = event;
                 this.loading = false;
             },
-            error: err => console.error('Error fetching students', err),
+            error: (err) => console.error('Error fetching students', err),
         });
     }
 
@@ -72,7 +74,8 @@ export class StudentsTable {
             accept: () => {
                 this.studentService.deleteStudent(student.id!).subscribe({
                     next: () => this.reloadTable(),
-                    error: (err) => console.error('Error deleting student', err),
+                    error: (err) =>
+                        console.error('Error deleting student', err),
                 });
             },
         });
@@ -81,5 +84,4 @@ export class StudentsTable {
     viewDetails(student: Student) {
         this.router.navigate(['/students', student.id]);
     }
-
 }

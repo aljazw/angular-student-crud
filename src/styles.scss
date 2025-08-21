@@ -1,15 +1,15 @@
 @import "primeicons/primeicons.css";
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     background-color: var(--p-custom-0);
 }
 
-
 .custom-datatable {
     table {
-        border-collapse: 'separate';
+        border-collapse: "separate";
         border-spacing: 0 0.7rem;
     }
 
@@ -30,7 +30,8 @@ html, body {
         }
     }
 
-    th, td {
+    th,
+    td {
         border: none;
         &:first-child {
             padding-left: 1.2em;
@@ -40,7 +41,7 @@ html, body {
         &:last-child {
             border-top-right-radius: 0.5em;
             border-bottom-right-radius: 0.5em;
-            width: 11%; 
+            width: 11%;
         }
     }
 
@@ -51,9 +52,9 @@ html, body {
 }
 
 .custom-paginator {
-    font-size: 0.94rem; 
+    font-size: 0.94rem;
     background: transparent;
-    color: var(--p-custom-100); 
+    color: var(--p-custom-100);
 
     .p-paginator-current {
         margin-right: auto;
@@ -62,26 +63,22 @@ html, body {
     .p-paginator-pages {
         .p-paginator-page {
             background-color: transparent;
-            border-radius: 0.25em; 
+            border-radius: 0.25em;
         }
         .p-paginator-page-selected {
             background-color: transparent;
             font-weight: 600;
-            color: var(--p-custom-950); 
+            color: var(--p-custom-950);
         }
     }
-    
-   
-    .p-paginator-next, 
-    .p-paginator-prev 
-    {
+
+    .p-paginator-next,
+    .p-paginator-prev {
         margin: 0 0.75rem;
         padding: 0 0.7em;
         color: var(--p-custom-300);
-        border-radius: 0.25em; 
+        border-radius: 0.25em;
     }
-    
-
 
     .p-paginator-next-icon,
     .p-paginator-prev-icon {
@@ -101,14 +98,14 @@ html, body {
     }
 
     .p-paginator-rpp-dropdown {
-        border:none;
+        border: none;
         background-color: var(--p-custom-0);
-        color: var(--p-custom-100); 
+        color: var(--p-custom-100);
     }
 
     .p-paginator-first:hover,
     .p-paginator-last:hover,
-    .p-paginator-next:hover, 
+    .p-paginator-next:hover,
     .p-paginator-prev:hover,
     .p-paginator-page:hover {
         background-color: var(--p-custom-100) !important;
@@ -117,7 +114,6 @@ html, body {
 
     .p-paginator-first-icon,
     .p-paginator-last-icon {
-        opacity: 0.6;;
+        opacity: 0.6;
     }
-
 }

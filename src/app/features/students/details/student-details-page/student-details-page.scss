@@ -1,7 +1,7 @@
 .container {
     padding: 1rem 2rem;
     font-size: 1.4rem;
-    color: var(--p-custom-950)
+    color: var(--p-custom-950);
 }
 
 .student-info {
@@ -13,8 +13,8 @@
 .subjects-list {
     list-style-type: none;
     font-size: 1.2rem;
-    >li {
-        display: flex;  
+    > li {
+        display: flex;
         flex-direction: row;
         margin: 0.5rem 0;
         align-items: center;
