@@ -1,0 +1,8 @@
+<div class="container">
+    <i
+        [class]="iconClass"
+        style="font-size: 1.2rem; color: var(--p-custom-300)"
+    ></i>
+    <span>{{ label }}</span>
+    <p-toggleswitch [(ngModel)]="isDark" (ngModelChange)="onToggle()" />
+</div>

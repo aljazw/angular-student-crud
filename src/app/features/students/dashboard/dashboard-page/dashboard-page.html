@@ -1,7 +1,10 @@
-<h2>Students Overview</h2>
+<div class="theme-btn-container">
+    <app-theme-switch-button></app-theme-switch-button>
+</div>
 <div class="container">
+    <span>Students Overview</span>
     <app-students-table></app-students-table>
-    <div class="btn-container">
+    <div class="add-btn-container">
         <p-button
             label="Add Student"
             (onClick)="goToAddStudent()"
